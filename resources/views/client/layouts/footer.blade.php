@@ -1,7 +1,7 @@
  <!--footer area start-->
     <footer class="footer_widgets">
         <!--newsletter area start-->
-        <div class="newsletter_area">
+        {{-- <div class="newsletter_area">
             <div class="container">
                 <div class="newsletter_inner">
                     <div class="row">
@@ -33,7 +33,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <!--newsletter area end-->
         <div class="footer_top">
             <div class="container">
