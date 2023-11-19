@@ -18,6 +18,11 @@ use App\Http\Controllers\client\HomeController;
 Route::get('/', [HomeController::class, 'index'])->name('client.home');
 Route::get('/shop', [HomeController::class, 'shop'])->name('client.shop');
 Route::get('/product-details', [HomeController::class, 'product_details'])->name('client.product_details');
+Route::get('/cart', [HomeController::class, 'cart'])->name('client.cart');
+Route::get('/wishlist', [HomeController::class, 'wishlist'])->name('client.wishlist');
+Route::get('/checkout', [HomeController::class, 'checkout'])->name('client.checkout');
+Route::get('/contuct', [HomeController::class, 'contuct'])->name('client.contuct');
+Route::get('/about', [HomeController::class, 'about'])->name('client.about');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
