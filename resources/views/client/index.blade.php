@@ -2061,7 +2061,7 @@
                             </article>
                         </div>
                     </div>
-                   
+
                 </div>
 
             </div>
@@ -3823,5 +3823,4 @@
         <!--blog area end-->
 
     </div>
-</div>
 @endsection

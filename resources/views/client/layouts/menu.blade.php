@@ -54,7 +54,7 @@
                                 <li class="menu-item-has-children active">
                                     <a href="#">Home</a>
                                     {{-- <ul class="sub-menu">
-                                        <li><a href="index.html">Home 1</a></li>
+                                        <li><a href="{{route('client.home')}}">Home 1</a></li>
                                         <li><a href="index-2.html">Home 2</a></li>
                                         <li><a href="index-3.html">Home 3</a></li>
                                         <li><a href="index-4.html">Home 4</a></li>
@@ -63,78 +63,81 @@
                                         <li><a href="index-7.html">Home 7</a></li>
                                     </ul> --}}
                                 </li>
+                                 <li class="menu-item-has-children">
+                                    <a href="about.html">About Us</a>
+                                </li>
                                 <li class="menu-item-has-children">
-                                    <a href="#">Shop</a>
+                                    <a href="{{route('client.shop')}}">Shop</a>
                                     <ul class="sub-menu">
                                         <li class="menu-item-has-children">
-                                            <a href="#">Men</a>
+                                            <a href="{{route('client.shop')}}">Men</a>
                                             <ul class="sub-menu">
 
-                                               <li><a href="#">Premium panjabi</a></li>
-                                                <li><a href="#">Classic Panjabi</a></li>
-                                                <li><a href="#">Fashion panjabi </a></li>
-                                                <li><a href="#"> Fashion panjabi</a></li>
-                                                <li><a href="#">Fashion panjabi</a></li>
+                                               <li><a href="{{route('client.shop')}}">Premium panjabi</a></li>
+                                                <li><a href="{{route('client.shop')}}">Classic Panjabi</a></li>
+                                                <li><a href="{{route('client.shop')}}">Fashion panjabi </a></li>
+                                                <li><a href="{{route('client.shop')}}"> Fashion panjabi</a></li>
+                                                <li><a href="{{route('client.shop')}}">Fashion panjabi</a></li>
                                             </ul>
                                         </li>
                                         <li class="menu-item-has-children">
-                                            <a href="#">Women</a>
+                                            <a href="{{route('client.shop')}}">Women</a>
                                             <ul class="sub-menu">
-                                                <li><a href="#">T-Shirt</a></li>
-                                                <li><a href="#">Regular t-shirt</a></li>
-                                                <li><a href="#">Henry t-shirt</a></li>
-                                                <li><a href="#">Boxy t-shirt</a></li>
-                                                <li><a href="#">Sports t-shirt</a></li>
+                                                <li><a href="{{route('client.shop')}}">T-Shirt</a></li>
+                                                <li><a href="{{route('client.shop')}}">Regular t-shirt</a></li>
+                                                <li><a href="{{route('client.shop')}}">Henry t-shirt</a></li>
+                                                <li><a href="{{route('client.shop')}}">Boxy t-shirt</a></li>
+                                                <li><a href="{{route('client.shop')}}">Sports t-shirt</a></li>
                                             </ul>
                                         </li>
                                         <li class="menu-item-has-children">
-                                            <a href="#">Kids</a>
+                                            <a href="{{route('client.shop')}}">Kids</a>
                                             <ul class="sub-menu">
-                                               <li><a href="#">Denin Trouser</a></li>
-                                                            <li><a href="#">Chino Trouser</a></li>
-                                                            <li><a href="#">Formar Trouser</a></li>
-                                                            <li><a href="#">product variable</a></li>
-                                                            <li><a href="#">product countdown</a></li>
+                                               <li><a href="{{route('client.shop')}}">Denin Trouser</a></li>
+                                                            <li><a href="{{route('client.shop')}}">Chino Trouser</a></li>
+                                                            <li><a href="{{route('client.shop')}}">Formar Trouser</a></li>
+                                                            <li><a href="{{route('client.shop')}}">product variable</a></li>
+                                                            <li><a href="{{route('client.shop')}}">product countdown</a></li>
                                             </ul>
                                         </li>
                                     </ul>
                                 </li>
 
-                                 <li class="mega_items"><a href="#">shop<i class="fa fa-angle-down"></i></a>
+                                 <li class="mega_items"><a href="{{route('client.shop')}}">shop<i class="fa fa-angle-down"></i></a>
                                             <div class="mega_menu">
                                                 <ul class="mega_menu_inner">
-                                                    <li><a href="#">Men</a>
+                                                    <li><a href="{{route('client.shop')}}">Men</a>
                                                         <ul>
-                                                            <li><a href="#">Premium panjabi</a></li>
-                                                            <li><a href="#">Classic Panjabi</a></li>
-                                                            <li><a href="#">Fashion panjabi </a></li>
-                                                            <li><a href="#"> Fashion panjabi</a></li>
-                                                            <li><a href="#">Fashion panjabi</a></li>
+                                                            <li><a href="{{route('client.shop')}}">Premium panjabi</a></li>
+                                                            <li><a href="{{route('client.shop')}}">Classic Panjabi</a></li>
+                                                            <li><a href="{{route('client.shop')}}">Fashion panjabi </a></li>
+                                                            <li><a href="{{route('client.shop')}}"> Fashion panjabi</a></li>
+                                                            <li><a href="{{route('client.shop')}}">Fashion panjabi</a></li>
                                                         </ul>
                                                     </li>
-                                                    <li><a href="#">Women</a>
+                                                    <li><a href="{{route('client.shop')}}">Women</a>
                                                         <ul>
-                                                            <li><a href="#">T-Shirt</a></li>
-                                                            <li><a href="#">Regular t-shirt</a></li>
-                                                            <li><a href="#">Henry t-shirt</a></li>
-                                                            <li><a href="#">Boxy t-shirt</a></li>
-                                                            <li><a href="#">Sports t-shirt</a></li>
+                                                            <li><a href="{{route('client.shop')}}">T-Shirt</a></li>
+                                                            <li><a href="{{route('client.shop')}}">Regular t-shirt</a></li>
+                                                            <li><a href="{{route('client.shop')}}">Henry t-shirt</a></li>
+                                                            <li><a href="{{route('client.shop')}}">Boxy t-shirt</a></li>
+                                                            <li><a href="{{route('client.shop')}}">Sports t-shirt</a></li>
                                                         </ul>
                                                     </li>
-                                                    <li><a href="#">Kids</a>
+                                                    <li><a href="{{route('client.shop')}}">Kids</a>
                                                         <ul>
-                                                            <li><a href="#">Denin Trouser</a></li>
-                                                            <li><a href="#">Chino Trouser</a></li>
-                                                            <li><a href="#">Formar Trouser</a></li>
-                                                            <li><a href="#">product variable</a></li>
-                                                            <li><a href="#">product countdown</a></li>
+                                                            <li><a href="{{route('client.shop')}}">Denin Trouser</a></li>
+                                                            <li><a href="{{route('client.shop')}}">Chino Trouser</a></li>
+                                                            <li><a href="{{route('client.shop')}}">Formar Trouser</a></li>
+                                                            <li><a href="{{route('client.shop')}}">product variable</a></li>
+                                                            <li><a href="{{route('client.shop')}}">product countdown</a></li>
 
                                                         </ul>
                                                     </li>
                                                 </ul>
                                             </div>
                                         </li>
-                                <li class="menu-item-has-children">
+                                {{-- <li class="menu-item-has-children">
                                     <a href="#">blog</a>
                                     <ul class="sub-menu">
                                         <li><a href="blog.html">blog</a></li>
@@ -144,8 +147,8 @@
                                         <li><a href="blog-no-sidebar.html">blog no sidebar</a></li>
                                     </ul>
 
-                                </li>
-                                <li class="menu-item-has-children">
+                                </li> --}}
+                                {{-- <li class="menu-item-has-children">
                                     <a href="#">pages </a>
                                     <ul class="sub-menu">
                                         <li><a href="about.html">About Us</a></li>
@@ -160,10 +163,8 @@
                                 </li>
                                 <li class="menu-item-has-children">
                                     <a href="my-account.html">my account</a>
-                                </li>
-                                <li class="menu-item-has-children">
-                                    <a href="about.html">About Us</a>
-                                </li>
+                                </li> --}}
+                               
                                 <li class="menu-item-has-children">
                                     <a href="contact.html"> Contact Us</a>
                                 </li>
@@ -216,16 +217,16 @@
                     <div class="row align-items-center">
                         <div class="col-lg-2 col-md-3 col-4">
                             <div class="logo">
-                                <a href="index.html"><img src="{{asset('client/img/logo/logo.png')}}" alt=""></a>
+                                <a href="{{route('client.home')}}"><img src="{{asset('client/img/logo/logo.png')}}" alt=""></a>
                             </div>
                         </div>
                         <div class="col-lg-7 col-md-12">
                             <div class="main_menu menu_position text-center">
                                 <nav>
                                     <ul>
-                                        <li><a class="active" href="index.html">home<i class="fa fa-angle-down"></i></a>
+                                        <li><a class="active" href="{{route('client.home')}}">home</a>
                                             {{-- <ul class="sub_menu">
-                                                <li><a href="index.html">Home shop 1</a></li>
+                                                <li><a href="{{route('client.home')}}">Home shop 1</a></li>
                                                 <li><a href="index-2.html">Home shop 2</a></li>
                                                 <li><a href="index-3.html">Home shop 3</a></li>
                                                 <li><a href="index-4.html">Home shop 4</a></li>
@@ -234,16 +235,17 @@
                                                 <li><a href="index-7.html">Home shop 7</a></li>
                                             </ul> --}}
                                         </li>
-                                        <li class="mega_items"><a href="#">shop<i class="fa fa-angle-down"></i></a>
+                                        <li><a href="about.html">About Us</a></li>
+                                        <li class="mega_items"><a href="{{route('client.shop')}}">shop<i class="fa fa-angle-down"></i></a>
                                             <div class="mega_menu">
                                                 <ul class="mega_menu_inner">
-                                                    <li><a href="#">Men</a>
+                                                    <li><a href="{{route('client.shop')}}">Men</a>
                                                         <ul>
-                                                            <li><a href="#">Premium panjabi</a></li>
-                                                            <li><a href="#">Classic Panjabi</a></li>
-                                                            <li><a href="#">Fashion panjabi </a></li>
-                                                            <li><a href="#"> Fashion panjabi</a></li>
-                                                            <li><a href="#">Fashion panjabi</a></li>
+                                                            <li><a href="{{route('client.shop')}}">Premium panjabi</a></li>
+                                                            <li><a href="{{route('client.shop')}}">Classic Panjabi</a></li>
+                                                            <li><a href="{{route('client.shop')}}">Fashion panjabi </a></li>
+                                                            <li><a href="{{route('client.shop')}}"> Fashion panjabi</a></li>
+                                                            <li><a href="{{route('client.shop')}}">Fashion panjabi</a></li>
                                                         </ul>
                                                     </li>
                                                     <li><a href="#">Women</a>
@@ -268,15 +270,15 @@
                                                 </ul>
                                             </div>
                                         </li>
-                                        <li><a href="blog.html">blog<i class="fa fa-angle-down"></i></a>
+                                        {{-- <li><a href="blog.html">blog<i class="fa fa-angle-down"></i></a>
                                             <ul class="sub_menu pages">
                                                 <li><a href="blog-details.html">blog details</a></li>
                                                 <li><a href="blog-fullwidth.html">blog fullwidth</a></li>
                                                 <li><a href="blog-sidebar.html">blog sidebar</a></li>
                                                 <li><a href="blog-no-sidebar.html">blog no sidebar</a></li>
                                             </ul>
-                                        </li>
-                                        <li><a href="#">pages <i class="fa fa-angle-down"></i></a>
+                                        </li> --}}
+                                        {{-- <li><a href="#">pages <i class="fa fa-angle-down"></i></a>
                                             <ul class="sub_menu pages">
                                                 <li><a href="about.html">About Us</a></li>
                                                 <li><a href="faq.html">Frequently Questions</a></li>
@@ -287,9 +289,8 @@
                                                 <li><a href="compare.html">compare</a></li>
                                                 <li><a href="coming-soon.html">coming soon</a></li>
                                             </ul>
-                                        </li>
+                                        </li> --}}
 
-                                        <li><a href="about.html">About Us</a></li>
                                         <li><a href="contact.html"> Contact Us</a></li>
                                     </ul>
                                 </nav>
@@ -328,7 +329,7 @@
                     </div>
                     <div class="cart_item">
                         <div class="cart_img">
-                            <a href="#"><img src="assets/img/s-product/product.jpg" alt=""></a>
+                            <a href="#"><img src="#" alt=""></a>
                         </div>
                         <div class="cart_info">
                             <a href="#">Primis In Faucibus</a>
@@ -340,7 +341,7 @@
                     </div>
                     <div class="cart_item">
                         <div class="cart_img">
-                            <a href="#"><img src="assets/img/s-product/product2.jpg" alt=""></a>
+                            <a href="#"><img src="#" alt=""></a>
                         </div>
                         <div class="cart_info">
                             <a href="#">Letraset Sheets</a>

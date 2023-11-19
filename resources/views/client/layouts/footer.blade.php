@@ -46,10 +46,10 @@
                             </div>
                             <div class="app_img">
                                 <figure class="app_img">
-                                    <a href="#"><img src="assets/img/icon/icon-appstore.png" alt=""></a>
+                                    <a href="#"><img src="#" alt=""></a>
                                 </figure>
                                 <figure class="app_img">
-                                    <a href="#"><img src="assets/img/icon/icon-googleplay.png" alt=""></a>
+                                    <a href="#"><img src="#" alt=""></a>
                                 </figure>
                             </div>
                         </div>
@@ -105,7 +105,7 @@
                             <div class="footer_contact">
                                 <div class="footer_contact_inner">
                                     <div class="contact_icone">
-                                        <img src="assets/img/icon/icon-phone.png" alt="">
+                                        <img src="#" alt="">
                                     </div>
                                     <div class="contact_text">
                                         <p>Hotline Free 24/24: <br> <strong>0123456789</strong></p>
@@ -138,7 +138,7 @@
                     </div>
                     <div class="col-lg-6 col-md-6">
                         <div class="footer_payment text-end">
-                            <img src="assets/img/icon/payment.png" alt="">
+                            <img src="#" alt="">
                         </div>
                     </div>
                 </div>

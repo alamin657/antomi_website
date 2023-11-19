@@ -16,6 +16,8 @@ use App\Http\Controllers\client\HomeController;
 
 
 Route::get('/', [HomeController::class, 'index'])->name('client.home');
+Route::get('/shop', [HomeController::class, 'shop'])->name('client.shop');
+Route::get('/product-details', [HomeController::class, 'product_details'])->name('client.product_details');
 
 
 Route::get('/dashboard', function () {
