@@ -7,7 +7,7 @@
         <div class="slider_area slider3_carousel owl-carousel">
             <div class="single_slider d-flex align-items-center"data-bgimg="client/img/slider/slider9.jpg" style="background-image: url('{{ asset('client/img/slider/slider9.jpg') }}');">
                 <div class="container">
-                    <div class="row">
+                    {{--  <div class="row">
                         <div class="col-lg-8 offset-lg-2">
                             <div class="slider_content slider_c_three color_white">
                                 <h3>new collection</h3>
@@ -16,13 +16,13 @@
                                     <a class="button" href="shop.html">DISCOVER NOW</a>
                             </div>
                         </div>
-                    </div>
+                    </div>  --}}
                 </div>
 
             </div>
             <div class="single_slider d-flex align-items-center" data-bgimg="client/img/slider/slider10.jpg" style="background-image: url('{{ asset('client/img/slider/slider10.jpg') }}');">
                 <div class="container">
-                    <div class="row">
+                    {{--  <div class="row">
                         <div class="col-lg-8 offset-lg-2">
                             <div class="slider_content slider_c_three color_white">
                                 <h3>new collection</h3>
@@ -31,12 +31,12 @@
                                     <a class="button" href="shop.html">DISCOVER NOW</a>
                             </div>
                         </div>
-                    </div>
+                    </div>  --}}
                 </div>
             </div>
             <div class="single_slider d-flex align-items-center" data-bgimg="client/img/slider/slider11.jpg" style="background-image: url('{{ asset('client/img/slider/slider11.jpg') }}')">
                 <div class="container">
-                    <div class="row">
+                    {{--  <div class="row">
                         <div class="col-lg-8 offset-lg-2">
                             <div class="slider_content slider_c_three color_white">
                                 <h3>new collection</h3>
@@ -45,7 +45,7 @@
                                     <a class="button" href="shop.html">DISCOVER NOW</a>
                             </div>
                         </div>
-                    </div>
+                    </div>  --}}
                 </div>
             </div>
         </div>
@@ -162,7 +162,7 @@
 
     <!--home section bg area start-->
     <div class="home_section_bg">
-        
+
         {{-- <div class="categories_product_area mb-55">
             <div class="container">
                 <div class="categories_product_inner">
