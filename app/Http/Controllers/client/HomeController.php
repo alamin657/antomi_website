@@ -15,6 +15,10 @@ class HomeController extends Controller
         return view('client.index');
     }
 
+    public function about()
+    {
+        return view('client.about');
+    }
 
     public function shop()
     {
@@ -24,6 +28,26 @@ class HomeController extends Controller
     public function product_details()
     {
         return view('client.product_details');
+    }
+
+    public function wishlist()
+    {
+        return view('client.wishlist');
+    }
+
+    public function cart()
+    {
+        return view('client.cart');
+    }
+
+    public function checkout()
+    {
+        return view('client.checkout');
+    }
+
+    public function contuct()
+    {
+        return view('client.contuct');
     }
 
     /**

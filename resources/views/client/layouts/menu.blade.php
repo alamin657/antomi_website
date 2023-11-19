@@ -64,7 +64,7 @@
                                     </ul> --}}
                                 </li>
                                  <li class="menu-item-has-children">
-                                    <a href="about.html">About Us</a>
+                                    <a href="{{route('client.about')}}">About Us</a>
                                 </li>
                                 <li class="menu-item-has-children">
                                     <a href="{{route('client.shop')}}">Shop</a>
@@ -151,7 +151,7 @@
                                 {{-- <li class="menu-item-has-children">
                                     <a href="#">pages </a>
                                     <ul class="sub-menu">
-                                        <li><a href="about.html">About Us</a></li>
+                                        <li><a href="client.about">About Us</a></li>
                                         <li><a href="faq.html">Frequently Questions</a></li>
                                         <li><a href="privacy-policy.html">privacy policy</a></li>
                                         <li><a href="contact.html">contact</a></li>
@@ -217,7 +217,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-2 col-md-3 col-4">
                             <div class="logo">
-                                <a href="{{route('client.home')}}"><img src="{{asset('client/img/logo/logo.png')}}" alt=""></a>
+                                <a href="{{route('client.home')}}"><img src="{{asset('client/img/logo/wow-bangladesh.png')}}" width="206" height="20" alt=""></a>
                             </div>
                         </div>
                         <div class="col-lg-7 col-md-12">
@@ -235,7 +235,7 @@
                                                 <li><a href="index-7.html">Home shop 7</a></li>
                                             </ul> --}}
                                         </li>
-                                        <li><a href="about.html">About Us</a></li>
+                                        <li><a href="{{route('client.about')}}">About Us</a></li>
                                         <li class="mega_items"><a href="{{route('client.shop')}}">shop<i class="fa fa-angle-down"></i></a>
                                             <div class="mega_menu">
                                                 <ul class="mega_menu_inner">
@@ -280,7 +280,7 @@
                                         </li> --}}
                                         {{-- <li><a href="#">pages <i class="fa fa-angle-down"></i></a>
                                             <ul class="sub_menu pages">
-                                                <li><a href="about.html">About Us</a></li>
+                                                <li><a href="client.about">About Us</a></li>
                                                 <li><a href="faq.html">Frequently Questions</a></li>
                                                 <li><a href="privacy-policy.html">privacy policy</a></li>
                                                 <li><a href="contact.html">contact</a></li>
