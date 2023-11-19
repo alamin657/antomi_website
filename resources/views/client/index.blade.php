@@ -52,7 +52,6 @@
     </section>
     <!--slider area end-->
 
-
     <!--shipping area start-->
     {{-- <div class="shipping_area mb-60">
         <div class="container">
@@ -304,14 +303,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-countdown.html"><img src="{{asset('client/img/trending-categories/categories1.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="product-countdown.html"><img src="{{asset('client/img/product/product2.jpg')}}" alt=""></a> --}}
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/trending-categories/categories1.jpg')}}" alt=""></a>
+                                        {{-- <a class="secondary_img" href="{{route('client.cart')}}"><img src="{{asset('client/img/product/product2.jpg')}}" alt=""></a> --}}
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -319,7 +318,7 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-countdown.html">Eodem modo vel mattis ante facilisis nec porttitor efficitur</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Eodem modo vel mattis ante facilisis nec porttitor efficitur</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$86.00</span>
                                                 <span class="current_price">$79.00</span>
@@ -332,7 +331,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -342,14 +341,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-countdown.html"><img src="{{asset('client/img/trending-categories/categories2.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="product-countdown.html"><img src="{{asset('client/img/product/product4.jpg')}}" alt=""></a> --}}
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/trending-categories/categories2.jpg')}}" alt=""></a>
+                                        {{-- <a class="secondary_img" href="{{route('client.cart')}}"><img src="{{asset('client/img/product/product4.jpg')}}" alt=""></a> --}}
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -357,7 +356,7 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-countdown.html">Donec tempus pretium arcu et faucibus commodo</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Donec tempus pretium arcu et faucibus commodo</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$82.00</span>
                                                 <span class="current_price">$75.00</span>
@@ -370,7 +369,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -380,14 +379,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-countdown.html"><img src="{{asset('client/img/trending-categories/categories3.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="product-countdown.html"><img src="{{asset('client/img/product/product6.jpg')}}" alt=""></a> --}}
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/trending-categories/categories3.jpg')}}" alt=""></a>
+                                        {{-- <a class="secondary_img" href="{{route('client.cart')}}"><img src="{{asset('client/img/product/product6.jpg')}}" alt=""></a> --}}
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -395,7 +394,7 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-countdown.html">Natus erro at congue massa commodo sit Natus erro</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Natus erro at congue massa commodo sit Natus erro</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$80.00</span>
                                                 <span class="current_price">$70.00</span>
@@ -408,7 +407,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -418,14 +417,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-countdown.html"><img src="{{asset('client/img/trending-categories/categories4.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="product-countdown.html"><img src="{{asset('client/img/product/product8.jpg')}}" alt=""></a> --}}
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/trending-categories/categories4.jpg')}}" alt=""></a>
+                                        {{-- <a class="secondary_img" href="{{route('client.cart')}}"><img src="{{asset('client/img/product/product8.jpg')}}" alt=""></a> --}}
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -433,7 +432,7 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-countdown.html">Nullam maximus eget nisi dignissim sodales eget tempor</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Nullam maximus eget nisi dignissim sodales eget tempor</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$76.00</span>
                                                 <span class="current_price">$75.00</span>
@@ -446,7 +445,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -456,14 +455,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-countdown.html"><img src="{{asset('client/img/trending-categories/categories5.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="product-countdown.html"><img src="{{asset('client/img/product/product10.jpg')}}" alt=""></a> --}}
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/trending-categories/categories5.jpg')}}" alt=""></a>
+                                        {{-- <a class="secondary_img" href="{{route('client.cart')}}"><img src="{{asset('client/img/product/product10.jpg')}}" alt=""></a> --}}
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -471,7 +470,7 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-countdown.html">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$72.00</span>
                                                 <span class="current_price">$70.00</span>
@@ -484,7 +483,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -494,14 +493,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-countdown.html"><img src="{{asset('client/img/trending-categories/categories1.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="product-countdown.html"><img src="{{asset('client/img/product/product12.jpg')}}" alt=""></a> --}}
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/trending-categories/categories1.jpg')}}" alt=""></a>
+                                        {{-- <a class="secondary_img" href="{{route('client.cart')}}"><img src="{{asset('client/img/product/product12.jpg')}}" alt=""></a> --}}
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -509,7 +508,7 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-countdown.html">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$65.00</span>
                                                 <span class="current_price">$60.00</span>
@@ -522,7 +521,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -536,14 +535,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-countdown.html"><img src="{{asset('client/img/product/product5.jpg')}}" alt=""></a>
-                                        <a class="secondary_img" href="product-countdown.html"><img src="{{asset('client/img/product/product6.jpg')}}" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product5.jpg')}}" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product6.jpg')}}" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -551,7 +550,7 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-countdown.html">Natus erro at congue massa commodo sit Natus erro</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Natus erro at congue massa commodo sit Natus erro</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$80.00</span>
                                                 <span class="current_price">$70.00</span>
@@ -564,7 +563,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -574,14 +573,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-countdown.html"><img src="{{asset('client/img/product/product7.jpg')}}" alt=""></a>
-                                        <a class="secondary_img" href="product-countdown.html"><img src="{{asset('client/img/product/product8.jpg')}}" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product7.jpg')}}" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product8.jpg')}}" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -589,7 +588,7 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-countdown.html">Nullam maximus eget nisi dignissim sodales eget tempor</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Nullam maximus eget nisi dignissim sodales eget tempor</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$76.00</span>
                                                 <span class="current_price">$75.00</span>
@@ -602,7 +601,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.product_details')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -612,14 +611,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-countdown.html"><img src="{{asset('client/img/product/product9.jpg')}}" alt=""></a>
-                                        <a class="secondary_img" href="product-countdown.html"><img src="{{asset('client/img/product/product10.jpg')}}" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product9.jpg')}}" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product10.jpg')}}" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -627,7 +626,7 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-countdown.html">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$72.00</span>
                                                 <span class="current_price">$70.00</span>
@@ -640,7 +639,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -650,14 +649,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-countdown.html"><img src="{{asset('client/img/product/product11.jpg')}}" alt=""></a>
-                                        <a class="secondary_img" href="product-countdown.html"><img src="{{asset('client/img/product/product12.jpg')}}" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product11.jpg')}}" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product12.jpg')}}" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -665,7 +664,7 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-countdown.html">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$65.00</span>
                                                 <span class="current_price">$60.00</span>
@@ -678,7 +677,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -688,14 +687,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-countdown.html"><img src="{{asset('client/img/product/product1.jpg')}}" alt=""></a>
-                                        <a class="secondary_img" href="product-countdown.html"><img src="{{asset('client/img/product/product2.jpg')}}" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product1.jpg')}}" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product2.jpg')}}" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -703,7 +702,7 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-countdown.html">Eodem modo vel mattis ante facilisis nec porttitor efficitur</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Eodem modo vel mattis ante facilisis nec porttitor efficitur</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$86.00</span>
                                                 <span class="current_price">$79.00</span>
@@ -716,7 +715,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -726,14 +725,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-countdown.html"><img src="{{asset('client/img/product/product3.jpg')}}" alt=""></a>
-                                        <a class="secondary_img" href="product-countdown.html"><img src="{{asset('client/img/product/product4.jpg')}}" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product3.jpg')}}" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product4.jpg')}}" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -741,7 +740,7 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-countdown.html">Donec tempus pretium arcu et faucibus commodo</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Donec tempus pretium arcu et faucibus commodo</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$82.00</span>
                                                 <span class="current_price">$75.00</span>
@@ -754,7 +753,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -768,14 +767,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-countdown.html"><img src="{{asset('client/img/product/product7.jpg')}}" alt=""></a>
-                                        <a class="secondary_img" href="product-countdown.html"><img src="{{asset('client/img/product/product8.jpg')}}" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product7.jpg')}}" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product8.jpg')}}" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -783,7 +782,7 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-countdown.html">Nullam maximus eget nisi dignissim sodales eget tempor</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Nullam maximus eget nisi dignissim sodales eget tempor</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$76.00</span>
                                                 <span class="current_price">$75.00</span>
@@ -796,7 +795,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -805,14 +804,14 @@
                             <article class="single_product">
                                 <figure>
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-countdown.html"><img src="{{asset('client/img/product/product1.jpg')}}" alt=""></a>
-                                        <a class="secondary_img" href="product-countdown.html"><img src="{{asset('client/img/product/product2.jpg')}}" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product1.jpg')}}" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product2.jpg')}}" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -820,7 +819,7 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-countdown.html">Eodem modo vel mattis ante facilisis nec porttitor efficitur</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Eodem modo vel mattis ante facilisis nec porttitor efficitur</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$86.00</span>
                                                 <span class="current_price">$79.00</span>
@@ -833,7 +832,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -843,14 +842,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-countdown.html"><img src="{{asset('client/img/product/product3.jpg')}}" alt=""></a>
-                                        <a class="secondary_img" href="product-countdown.html"><img src="{{asset('client/img/product/product4.jpg')}}" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product3.jpg')}}" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product4.jpg')}}" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -858,7 +857,7 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-countdown.html">Donec tempus pretium arcu et faucibus commodo</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Donec tempus pretium arcu et faucibus commodo</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$82.00</span>
                                                 <span class="current_price">$75.00</span>
@@ -871,7 +870,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -881,14 +880,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-countdown.html"><img src="{{asset('client/img/product/product5.jpg')}}" alt=""></a>
-                                        <a class="secondary_img" href="product-countdown.html"><img src="{{asset('client/img/product/product6.jpg')}}" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product5.jpg')}}" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product6.jpg')}}" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -896,7 +895,7 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-countdown.html">Natus erro at congue massa commodo sit Natus erro</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Natus erro at congue massa commodo sit Natus erro</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$80.00</span>
                                                 <span class="current_price">$70.00</span>
@@ -909,7 +908,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -919,14 +918,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-countdown.html"><img src="{{asset('client/img/product/product9.jpg')}}" alt=""></a>
-                                        <a class="secondary_img" href="product-countdown.html"><img src="{{asset('client/img/product/product10.jpg')}}" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product9.jpg')}}" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product10.jpg')}}" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -934,7 +933,7 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-countdown.html">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$72.00</span>
                                                 <span class="current_price">$70.00</span>
@@ -947,7 +946,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -957,14 +956,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-countdown.html"><img src="{{asset('client/img/product/product11.jpg')}}" alt=""></a>
-                                        <a class="secondary_img" href="product-countdown.html"><img src="{{asset('client/img/product/product12.jpg')}}" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product11.jpg')}}" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product12.jpg')}}" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -972,7 +971,7 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-countdown.html">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$65.00</span>
                                                 <span class="current_price">$60.00</span>
@@ -985,7 +984,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -999,14 +998,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-countdown.html"><img src="{{asset('client/img/product/product9.jpg')}}" alt=""></a>
-                                        <a class="secondary_img" href="product-countdown.html"><img src="{{asset('client/img/product/product10.jpg')}}" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product9.jpg')}}" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product10.jpg')}}" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -1014,7 +1013,7 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-countdown.html">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$72.00</span>
                                                 <span class="current_price">$70.00</span>
@@ -1027,7 +1026,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1037,14 +1036,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-countdown.html"><img src="{{asset('client/img/product/product1.jpg')}}" alt=""></a>
-                                        <a class="secondary_img" href="product-countdown.html"><img src="{{asset('client/img/product/product2.jpg')}}" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product1.jpg')}}" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product2.jpg')}}" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -1052,7 +1051,7 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-countdown.html">Eodem modo vel mattis ante facilisis nec porttitor efficitur</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Eodem modo vel mattis ante facilisis nec porttitor efficitur</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$86.00</span>
                                                 <span class="current_price">$79.00</span>
@@ -1065,7 +1064,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1075,14 +1074,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-countdown.html"><img src="{{asset('client/img/product/product5.jpg')}}" alt=""></a>
-                                        <a class="secondary_img" href="product-countdown.html"><img src="{{asset('client/img/product/product6.jpg')}}" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product5.jpg')}}" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product6.jpg')}}" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -1090,7 +1089,7 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-countdown.html">Natus erro at congue massa commodo sit Natus erro</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Natus erro at congue massa commodo sit Natus erro</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$80.00</span>
                                                 <span class="current_price">$70.00</span>
@@ -1103,7 +1102,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1113,14 +1112,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-countdown.html"><img src="{{asset('client/img/product/product7.jpg')}}" alt=""></a>
-                                        <a class="secondary_img" href="product-countdown.html"><img src="{{asset('client/img/product/product8.jpg')}}" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product7.jpg')}}" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product8.jpg')}}" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -1128,7 +1127,7 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-countdown.html">Nullam maximus eget nisi dignissim sodales eget tempor</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Nullam maximus eget nisi dignissim sodales eget tempor</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$76.00</span>
                                                 <span class="current_price">$75.00</span>
@@ -1141,7 +1140,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1150,14 +1149,14 @@
                             <article class="single_product">
                                 <figure>
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-countdown.html"><img src="{{asset('client/img/product/product3.jpg')}}" alt=""></a>
-                                        <a class="secondary_img" href="product-countdown.html"><img src="{{asset('client/img/product/product4.jpg')}}" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product3.jpg')}}" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product4.jpg')}}" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -1165,7 +1164,7 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-countdown.html">Donec tempus pretium arcu et faucibus commodo</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Donec tempus pretium arcu et faucibus commodo</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$82.00</span>
                                                 <span class="current_price">$75.00</span>
@@ -1178,7 +1177,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1188,14 +1187,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-countdown.html"><img src="{{asset('client/img/product/product11.jpg')}}" alt=""></a>
-                                        <a class="secondary_img" href="product-countdown.html"><img src="{{asset('client/img/product/product12.jpg')}}" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product11.jpg')}}" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product12.jpg')}}" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -1203,7 +1202,7 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-countdown.html">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$65.00</span>
                                                 <span class="current_price">$60.00</span>
@@ -1216,7 +1215,7 @@
                                             </div> --}}
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1285,14 +1284,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/product/men/men1.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="product-details.html"><img src="{{asset('client/img/product/product28.jpg')}}" alt=""></a> --}}
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/men/men1.jpg')}}" alt=""></a>
+                                        {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product28.jpg')}}" alt=""></a> --}}
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -1300,14 +1299,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$72.00</span>
                                                 <span class="current_price">$70.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1316,14 +1315,14 @@
                             <article class="single_product">
                                 <figure>
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/product/men/men2.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="product-details.html"><img src="{{asset('client/img/product/product26.jpg')}}" alt=""></a> --}}
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/men/men2.jpg')}}" alt=""></a>
+                                        {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product26.jpg')}}" alt=""></a> --}}
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -1331,14 +1330,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$65.00</span>
                                                 <span class="current_price">$60.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1347,14 +1346,14 @@
                             <article class="single_product">
                                 <figure>
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/product/men/men3.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="product-details.html"><img src="{{asset('client/img/product/product25.jpg')}}" alt=""></a> --}}
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/men/men3.jpg')}}" alt=""></a>
+                                        {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product25.jpg')}}" alt=""></a> --}}
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -1362,14 +1361,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Natus erro at congue massa commodo sit Natus erro</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Natus erro at congue massa commodo sit Natus erro</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$80.00</span>
                                                 <span class="current_price">$70.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1378,14 +1377,14 @@
                             <article class="single_product">
                                 <figure>
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/product/men/men4.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="product-details.html"><img src="{{asset('client/img/product/product23.jpg')}}" alt=""></a> --}}
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/men/men4.jpg')}}" alt=""></a>
+                                        {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product23.jpg')}}" alt=""></a> --}}
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -1393,14 +1392,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Nullam maximus eget nisi dignissim sodales eget tempor</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Nullam maximus eget nisi dignissim sodales eget tempor</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$76.00</span>
                                                 <span class="current_price">$75.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1409,14 +1408,14 @@
                             <article class="single_product">
                                 <figure>
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/product/men/men5.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="product-details.html"><img src="{{asset('client/img/product/product21.jpg')}}" alt=""></a> --}}
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/men/men5.jpg')}}" alt=""></a>
+                                        {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product21.jpg')}}" alt=""></a> --}}
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -1424,14 +1423,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Eodem modo vel mattis ante facilisis nec porttitor efficitur</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Eodem modo vel mattis ante facilisis nec porttitor efficitur</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$86.00</span>
                                                 <span class="current_price">$79.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1440,14 +1439,14 @@
                             <article class="single_product">
                                 <figure>
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/product/men/men6.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="product-details.html"><img src="{{asset('client/img/product/product19.jpg')}}" alt=""></a> --}}
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/men/men6.jpg')}}" alt=""></a>
+                                        {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product19.jpg')}}" alt=""></a> --}}
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -1455,14 +1454,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Donec tempus pretium arcu et faucibus commodo</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Donec tempus pretium arcu et faucibus commodo</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$82.00</span>
                                                 <span class="current_price">$75.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1479,14 +1478,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/product/women/women1.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="product-details.html"><img src="{{asset('client/img/product/product10.jpg')}}" alt=""></a> --}}
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/women/women1.jpg')}}" alt=""></a>
+                                        {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product10.jpg')}}" alt=""></a> --}}
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -1494,14 +1493,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$72.00</span>
                                                 <span class="current_price">$70.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1511,14 +1510,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/product/women/women2.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="product-details.html"><img src="{{asset('client/img/product/product12.jpg')}}" alt=""></a> --}}
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/women/women2.jpg')}}" alt=""></a>
+                                        {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product12.jpg')}}" alt=""></a> --}}
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -1526,14 +1525,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$65.00</span>
                                                 <span class="current_price">$60.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1542,14 +1541,14 @@
                             <article class="single_product">
                                 <figure>
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/product/women/women3.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="product-details.html"><img src="{{asset('client/img/product/product6.jpg')}}" alt=""></a> --}}
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/women/women3.jpg')}}" alt=""></a>
+                                        {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product6.jpg')}}" alt=""></a> --}}
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -1557,14 +1556,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Natus erro at congue massa commodo sit Natus erro</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Natus erro at congue massa commodo sit Natus erro</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$80.00</span>
                                                 <span class="current_price">$70.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1574,14 +1573,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/product/women/women4.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="product-details.html"><img src="{{asset('client/img/product/product8.jpg')}}" alt=""></a> --}}
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/women/women4.jpg')}}" alt=""></a>
+                                        {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product8.jpg')}}" alt=""></a> --}}
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -1589,14 +1588,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Nullam maximus eget nisi dignissim sodales eget tempor</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Nullam maximus eget nisi dignissim sodales eget tempor</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$76.00</span>
                                                 <span class="current_price">$75.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1606,14 +1605,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/product/women/women5.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="product-details.html"><img src="{{asset('client/img/product/product2.jpg')}}" alt=""></a> --}}
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/women/women5.jpg')}}" alt=""></a>
+                                        {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product2.jpg')}}" alt=""></a> --}}
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -1621,14 +1620,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Eodem modo vel mattis ante facilisis nec porttitor efficitur</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Eodem modo vel mattis ante facilisis nec porttitor efficitur</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$86.00</span>
                                                 <span class="current_price">$79.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1638,14 +1637,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/product/women/women6.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="product-details.html"><img src="{{asset('client/img/product/product4.jpg')}}" alt=""></a> --}}
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/women/women6.jpg')}}" alt=""></a>
+                                        {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product4.jpg')}}" alt=""></a> --}}
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -1653,14 +1652,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Donec tempus pretium arcu et faucibus commodo</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Donec tempus pretium arcu et faucibus commodo</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$82.00</span>
                                                 <span class="current_price">$75.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1676,14 +1675,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/product/boy-collection/boy1.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product8.jpg" alt=""></a> --}}
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/boy-collection/boy1.jpg')}}" alt=""></a>
+                                        {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product8.jpg" alt=""></a> --}}
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -1691,14 +1690,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Nullam maximus eget nisi dignissim sodales eget tempor</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Nullam maximus eget nisi dignissim sodales eget tempor</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$76.00</span>
                                                 <span class="current_price">$75.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1707,14 +1706,14 @@
                             <article class="single_product">
                                 <figure>
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/product/boy-collection/boy2.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product2.jpg" alt=""></a> --}}
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/boy-collection/boy2.jpg')}}" alt=""></a>
+                                        {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product2.jpg" alt=""></a> --}}
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -1722,14 +1721,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Eodem modo vel mattis ante facilisis nec porttitor efficitur</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Eodem modo vel mattis ante facilisis nec porttitor efficitur</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$86.00</span>
                                                 <span class="current_price">$79.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1739,14 +1738,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/product/boy-collection/boy3.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product4.jpg" alt=""></a> --}}
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/boy-collection/boy3.jpg')}}" alt=""></a>
+                                        {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product4.jpg" alt=""></a> --}}
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -1754,14 +1753,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Donec tempus pretium arcu et faucibus commodo</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Donec tempus pretium arcu et faucibus commodo</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$82.00</span>
                                                 <span class="current_price">$75.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1771,14 +1770,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/product/boy-collection/boy4.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product6.jpg" alt=""></a> --}}
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/boy-collection/boy4.jpg')}}" alt=""></a>
+                                        {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product6.jpg" alt=""></a> --}}
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -1786,14 +1785,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Natus erro at congue massa commodo sit Natus erro</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Natus erro at congue massa commodo sit Natus erro</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$80.00</span>
                                                 <span class="current_price">$70.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1803,14 +1802,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/product/boy-collection/boy5.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product10.jpg" alt=""></a> --}}
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/boy-collection/boy5.jpg')}}" alt=""></a>
+                                        {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product10.jpg" alt=""></a> --}}
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -1818,14 +1817,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$72.00</span>
                                                 <span class="current_price">$70.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1835,14 +1834,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/product/boy-collection/boy6.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product12.jpg" alt=""></a> --}}
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/boy-collection/boy6.jpg')}}" alt=""></a>
+                                        {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product12.jpg" alt=""></a> --}}
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -1850,14 +1849,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$65.00</span>
                                                 <span class="current_price">$60.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1872,14 +1871,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/product/girl-collection/girl1.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product10.jpg" alt=""></a> --}}
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/girl-collection/girl1.jpg')}}" alt=""></a>
+                                        {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product10.jpg" alt=""></a> --}}
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -1887,14 +1886,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$72.00</span>
                                                 <span class="current_price">$70.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1904,14 +1903,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/product/girl-collection/girl2.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product2.jpg" alt=""></a> --}}
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/girl-collection/girl2.jpg')}}" alt=""></a>
+                                        {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product2.jpg" alt=""></a> --}}
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -1919,14 +1918,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Eodem modo vel mattis ante facilisis nec porttitor efficitur</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Eodem modo vel mattis ante facilisis nec porttitor efficitur</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$86.00</span>
                                                 <span class="current_price">$79.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1936,14 +1935,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/product/girl-collection/girl3.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product6.jpg" alt=""></a> --}}
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/girl-collection/girl3.jpg')}}" alt=""></a>
+                                        {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product6.jpg" alt=""></a> --}}
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -1951,14 +1950,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Natus erro at congue massa commodo sit Natus erro</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Natus erro at congue massa commodo sit Natus erro</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$80.00</span>
                                                 <span class="current_price">$70.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1968,14 +1967,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/product/girl-collection/girl4.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product8.jpg" alt=""></a> --}}
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/girl-collection/girl4.jpg')}}" alt=""></a>
+                                        {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product8.jpg" alt=""></a> --}}
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -1983,14 +1982,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Nullam maximus eget nisi dignissim sodales eget tempor</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Nullam maximus eget nisi dignissim sodales eget tempor</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$76.00</span>
                                                 <span class="current_price">$75.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -1999,14 +1998,14 @@
                             <article class="single_product">
                                 <figure>
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/product/girl-collection/girl5.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product4.jpg" alt=""></a> --}}
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/girl-collection/girl5.jpg')}}" alt=""></a>
+                                        {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product4.jpg" alt=""></a> --}}
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2014,14 +2013,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Donec tempus pretium arcu et faucibus commodo</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Donec tempus pretium arcu et faucibus commodo</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$82.00</span>
                                                 <span class="current_price">$75.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2031,14 +2030,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/product/girl-collection/girl6.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product12.jpg" alt=""></a> --}}
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/girl-collection/girl6.jpg')}}" alt=""></a>
+                                        {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product12.jpg" alt=""></a> --}}
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2046,14 +2045,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$65.00</span>
                                                 <span class="current_price">$60.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2111,14 +2110,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/featured-products/product1.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="product-details.html"><img src="{{asset('client/img/featured-products/product1.jpg')}}" alt=""></a> --}}
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/featured-products/product1.jpg')}}" alt=""></a>
+                                        {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/featured-products/product1.jpg')}}" alt=""></a> --}}
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2126,14 +2125,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Natus erro at congue massa commodo sit Natus erro</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Natus erro at congue massa commodo sit Natus erro</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$80.00</span>
                                                 <span class="current_price">$70.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2143,14 +2142,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/featured-products/product2.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="product-details.html"><img src="{{asset('client/img/product/product15.jpg')}}" alt=""></a> --}}
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/featured-products/product2.jpg')}}" alt=""></a>
+                                        {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product15.jpg')}}" alt=""></a> --}}
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2158,14 +2157,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Nullam maximus eget nisi dignissim sodales eget tempor</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Nullam maximus eget nisi dignissim sodales eget tempor</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$76.00</span>
                                                 <span class="current_price">$75.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2175,14 +2174,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/featured-products/product3.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="product-details.html"><img src="{{asset('client/img/product/product13.jpg')}}" alt=""></a> --}}
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/featured-products/product3.jpg')}}" alt=""></a>
+                                        {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product13.jpg')}}" alt=""></a> --}}
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2190,14 +2189,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Eodem modo vel mattis ante facilisis nec porttitor efficitur</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Eodem modo vel mattis ante facilisis nec porttitor efficitur</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$86.00</span>
                                                 <span class="current_price">$79.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2207,14 +2206,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/featured-products/product4.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="product-details.html"><img src="{{asset('client/img/product/product11.jpg')}}" alt=""></a> --}}
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/featured-products/product4.jpg')}}" alt=""></a>
+                                        {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product11.jpg')}}" alt=""></a> --}}
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2222,14 +2221,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Donec tempus pretium arcu et faucibus commodo</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Donec tempus pretium arcu et faucibus commodo</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$82.00</span>
                                                 <span class="current_price">$75.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2239,14 +2238,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/featured-products/product5.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="product-details.html"><img src="{{asset('client/img/product/product9.jpg')}}" alt=""></a> --}}
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/featured-products/product5.jpg')}}" alt=""></a>
+                                        {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product9.jpg')}}" alt=""></a> --}}
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2254,14 +2253,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$72.00</span>
                                                 <span class="current_price">$70.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2271,14 +2270,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/featured-products/product6.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="product-details.html"><img src="{{asset('client/img/product/product7.jpg')}}" alt=""></a> --}}
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/featured-products/product6.jpg')}}" alt=""></a>
+                                        {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product7.jpg')}}" alt=""></a> --}}
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2286,14 +2285,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$65.00</span>
                                                 <span class="current_price">$60.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2307,14 +2306,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/featured-products/product1.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="product-details.html"><img src="{{asset('client/img/product/product2.jpg')}}" alt=""></a> --}}
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/featured-products/product1.jpg')}}" alt=""></a>
+                                        {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product2.jpg')}}" alt=""></a> --}}
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2322,14 +2321,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Natus erro at congue massa commodo sit Natus erro</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Natus erro at congue massa commodo sit Natus erro</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$80.00</span>
                                                 <span class="current_price">$70.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2339,14 +2338,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/featured-products/product2.jpg')}}" alt=""></a>
-                                        {{-- <a class="secondary_img" href="product-details.html"><img src="{{asset('client/img/product/product8.jpg')}}" alt=""></a> --}}
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/featured-products/product2.jpg')}}" alt=""></a>
+                                        {{-- <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product8.jpg')}}" alt=""></a> --}}
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2354,14 +2353,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Nullam maximus eget nisi dignissim sodales eget tempor</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Nullam maximus eget nisi dignissim sodales eget tempor</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$76.00</span>
                                                 <span class="current_price">$75.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2371,14 +2370,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/product/product9.jpg')}}" alt=""></a>
-                                        <a class="secondary_img" href="product-details.html"><img src="{{asset('client/img/product/product10.jpg')}}" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product9.jpg')}}" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product10.jpg')}}" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2386,14 +2385,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$72.00</span>
                                                 <span class="current_price">$70.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2403,14 +2402,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/product/product11.jpg')}}" alt=""></a>
-                                        <a class="secondary_img" href="product-details.html"><img src="{{asset('client/img/product/product12.jpg')}}" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product11.jpg')}}" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product12.jpg')}}" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2418,14 +2417,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$65.00</span>
                                                 <span class="current_price">$60.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2435,14 +2434,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/product/product1.jpg')}}" alt=""></a>
-                                        <a class="secondary_img" href="product-details.html"><img src="{{asset('client/img/product/product2.jpg')}}" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product1.jpg')}}" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product2.jpg')}}" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2450,14 +2449,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Eodem modo vel mattis ante facilisis nec porttitor efficitur</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Eodem modo vel mattis ante facilisis nec porttitor efficitur</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$86.00</span>
                                                 <span class="current_price">$79.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2467,14 +2466,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/product/product3.jpg')}}" alt=""></a>
-                                        <a class="secondary_img" href="product-details.html"><img src="{{asset('client/img/product/product4.jpg')}}" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product3.jpg')}}" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product4.jpg')}}" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2482,14 +2481,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Donec tempus pretium arcu et faucibus commodo</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Donec tempus pretium arcu et faucibus commodo</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$82.00</span>
                                                 <span class="current_price">$75.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2503,14 +2502,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/product/product7.jpg')}}" alt=""></a>
-                                        <a class="secondary_img" href="product-details.html"><img src="{{asset('client/img/product/product8.jpg')}}" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product7.jpg')}}" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product8.jpg')}}" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2518,14 +2517,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Nullam maximus eget nisi dignissim sodales eget tempor</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Nullam maximus eget nisi dignissim sodales eget tempor</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$76.00</span>
                                                 <span class="current_price">$75.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2534,14 +2533,14 @@
                             <article class="single_product">
                                 <figure>
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/product/product1.jpg')}}" alt=""></a>
-                                        <a class="secondary_img" href="product-details.html"><img src="{{asset('client/img/product/product2.jpg')}}" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product1.jpg')}}" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product2.jpg')}}" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2549,14 +2548,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Eodem modo vel mattis ante facilisis nec porttitor efficitur</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Eodem modo vel mattis ante facilisis nec porttitor efficitur</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$86.00</span>
                                                 <span class="current_price">$79.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2566,14 +2565,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/product/product3.jpg')}}" alt=""></a>
-                                        <a class="secondary_img" href="product-details.html"><img src="{{asset('client/img/product/product4.jpg')}}" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product3.jpg')}}" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product4.jpg')}}" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2581,14 +2580,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Donec tempus pretium arcu et faucibus commodo</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Donec tempus pretium arcu et faucibus commodo</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$82.00</span>
                                                 <span class="current_price">$75.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2598,14 +2597,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/product/product5.jpg')}}" alt=""></a>
-                                        <a class="secondary_img" href="product-details.html"><img src="{{asset('client/img/product/product6.jpg')}}" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product5.jpg')}}" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product6.jpg')}}" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2613,14 +2612,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Natus erro at congue massa commodo sit Natus erro</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Natus erro at congue massa commodo sit Natus erro</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$80.00</span>
                                                 <span class="current_price">$70.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2630,14 +2629,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/product/product9.jpg')}}" alt=""></a>
-                                        <a class="secondary_img" href="product-details.html"><img src="{{asset('client/img/product/product10.jpg')}}" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product9.jpg')}}" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product10.jpg')}}" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2645,14 +2644,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$72.00</span>
                                                 <span class="current_price">$70.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2662,14 +2661,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/product/product11.jpg')}}" alt=""></a>
-                                        <a class="secondary_img" href="product-details.html"><img src="{{asset('client/img/product/product12.jpg')}}" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product11.jpg')}}" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product12.jpg')}}" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2677,14 +2676,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$65.00</span>
                                                 <span class="current_price">$60.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2698,14 +2697,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/product/product9.jpg')}}" alt=""></a>
-                                        <a class="secondary_img" href="product-details.html"><img src="{{asset('client/img/product/product10.jpg')}}" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product9.jpg')}}" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product10.jpg')}}" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2713,14 +2712,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$72.00</span>
                                                 <span class="current_price">$70.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2730,14 +2729,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/product/product1.jpg')}}" alt=""></a>
-                                        <a class="secondary_img" href="product-details.html"><img src="{{asset('client/img/product/product2.jpg')}}" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product1.jpg')}}" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product2.jpg')}}" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2745,14 +2744,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Eodem modo vel mattis ante facilisis nec porttitor efficitur</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Eodem modo vel mattis ante facilisis nec porttitor efficitur</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$86.00</span>
                                                 <span class="current_price">$79.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2762,14 +2761,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/product/product5.jpg')}}" alt=""></a>
-                                        <a class="secondary_img" href="product-details.html"><img src="{{asset('client/img/product/product6.jpg')}}" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product5.jpg')}}" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product6.jpg')}}" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2777,14 +2776,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Natus erro at congue massa commodo sit Natus erro</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Natus erro at congue massa commodo sit Natus erro</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$80.00</span>
                                                 <span class="current_price">$70.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2794,14 +2793,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/product/product7.jpg')}}" alt=""></a>
-                                        <a class="secondary_img" href="product-details.html"><img src="{{asset('client/img/product/product8.jpg')}}" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product7.jpg')}}" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product8.jpg')}}" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2809,14 +2808,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Nullam maximus eget nisi dignissim sodales eget tempor</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Nullam maximus eget nisi dignissim sodales eget tempor</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$76.00</span>
                                                 <span class="current_price">$75.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2825,14 +2824,14 @@
                             <article class="single_product">
                                 <figure>
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/product/product3.jpg')}}" alt=""></a>
-                                        <a class="secondary_img" href="product-details.html"><img src="{{asset('client/img/product/product4.jpg')}}" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product3.jpg')}}" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product4.jpg')}}" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2840,14 +2839,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Donec tempus pretium arcu et faucibus commodo</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Donec tempus pretium arcu et faucibus commodo</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$82.00</span>
                                                 <span class="current_price">$75.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2857,14 +2856,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/product/product11.jpg')}}" alt=""></a>
-                                        <a class="secondary_img" href="product-details.html"><img src="{{asset('client/img/product/product12.jpg')}}" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product11.jpg')}}" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product12.jpg')}}" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2872,14 +2871,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$65.00</span>
                                                 <span class="current_price">$60.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2934,14 +2933,14 @@
                             <article class="single_product">
                                 <figure>
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/product/product19.jpg')}}" alt=""></a>
-                                        <a class="secondary_img" href="product-details.html"><img src="{{asset('client/img/product/product20.jpg')}}" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product19.jpg')}}" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product20.jpg')}}" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2949,14 +2948,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Nullam maximus eget nisi dignissim sodales eget tempor</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Nullam maximus eget nisi dignissim sodales eget tempor</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$76.00</span>
                                                 <span class="current_price">$75.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2965,14 +2964,14 @@
                             <article class="single_product">
                                 <figure>
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/product/product21.jpg')}}" alt=""></a>
-                                        <a class="secondary_img" href="product-details.html"><img src="{{asset('client/img/product/product22.jpg')}}" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product21.jpg')}}" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product22.jpg')}}" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -2980,14 +2979,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Natus erro at congue massa commodo sit Natus erro</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Natus erro at congue massa commodo sit Natus erro</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$80.00</span>
                                                 <span class="current_price">$70.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -2996,14 +2995,14 @@
                             <article class="single_product">
                                 <figure>
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/product/product14.jpg')}}" alt=""></a>
-                                        <a class="secondary_img" href="product-details.html"><img src="{{asset('client/img/product/product15.jpg')}}" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product14.jpg')}}" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product15.jpg')}}" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -3011,14 +3010,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Donec tempus pretium arcu et faucibus commodo</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Donec tempus pretium arcu et faucibus commodo</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$82.00</span>
                                                 <span class="current_price">$75.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -3027,14 +3026,14 @@
                             <article class="single_product">
                                 <figure>
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/product/product23.jpg')}}" alt=""></a>
-                                        <a class="secondary_img" href="product-details.html"><img src="{{asset('client/img/product/product24.jpg')}}" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product23.jpg')}}" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product24.jpg')}}" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -3042,14 +3041,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$72.00</span>
                                                 <span class="current_price">$70.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -3058,14 +3057,14 @@
                             <article class="single_product">
                                 <figure>
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="{{asset('client/img/product/product5.jpg')}}" alt=""></a>
-                                        <a class="secondary_img" href="product-details.html"><img src="{{asset('client/img/product/product6.jpg')}}" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product5.jpg')}}" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="{{asset('client/img/product/product6.jpg')}}" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -3073,14 +3072,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$65.00</span>
                                                 <span class="current_price">$60.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -3089,14 +3088,14 @@
                             <article class="single_product">
                                 <figure>
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="assets/img/product/product1.jpg" alt=""></a>
-                                        <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product2.jpg" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product1.jpg" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product2.jpg" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -3104,14 +3103,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Eodem modo vel mattis ante facilisis nec porttitor efficitur</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Eodem modo vel mattis ante facilisis nec porttitor efficitur</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$86.00</span>
                                                 <span class="current_price">$79.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -3125,14 +3124,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="assets/img/product/product5.jpg" alt=""></a>
-                                        <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product6.jpg" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product5.jpg" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product6.jpg" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -3140,14 +3139,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Natus erro at congue massa commodo sit Natus erro</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Natus erro at congue massa commodo sit Natus erro</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$80.00</span>
                                                 <span class="current_price">$70.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -3157,14 +3156,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="assets/img/product/product7.jpg" alt=""></a>
-                                        <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product8.jpg" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product7.jpg" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product8.jpg" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -3172,14 +3171,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Nullam maximus eget nisi dignissim sodales eget tempor</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Nullam maximus eget nisi dignissim sodales eget tempor</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$76.00</span>
                                                 <span class="current_price">$75.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -3189,14 +3188,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="assets/img/product/product9.jpg" alt=""></a>
-                                        <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product10.jpg" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product9.jpg" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product10.jpg" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -3204,14 +3203,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$72.00</span>
                                                 <span class="current_price">$70.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -3221,14 +3220,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="assets/img/product/product11.jpg" alt=""></a>
-                                        <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product12.jpg" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product11.jpg" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product12.jpg" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -3236,14 +3235,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$65.00</span>
                                                 <span class="current_price">$60.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -3253,14 +3252,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="assets/img/product/product1.jpg" alt=""></a>
-                                        <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product2.jpg" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product1.jpg" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product2.jpg" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -3268,14 +3267,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Eodem modo vel mattis ante facilisis nec porttitor efficitur</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Eodem modo vel mattis ante facilisis nec porttitor efficitur</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$86.00</span>
                                                 <span class="current_price">$79.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -3285,14 +3284,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="assets/img/product/product3.jpg" alt=""></a>
-                                        <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product4.jpg" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product3.jpg" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product4.jpg" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -3300,14 +3299,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Donec tempus pretium arcu et faucibus commodo</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Donec tempus pretium arcu et faucibus commodo</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$82.00</span>
                                                 <span class="current_price">$75.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -3321,14 +3320,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="assets/img/product/product7.jpg" alt=""></a>
-                                        <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product8.jpg" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product7.jpg" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product8.jpg" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -3336,14 +3335,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Nullam maximus eget nisi dignissim sodales eget tempor</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Nullam maximus eget nisi dignissim sodales eget tempor</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$76.00</span>
                                                 <span class="current_price">$75.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -3352,14 +3351,14 @@
                             <article class="single_product">
                                 <figure>
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="assets/img/product/product1.jpg" alt=""></a>
-                                        <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product2.jpg" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product1.jpg" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product2.jpg" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -3367,14 +3366,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Eodem modo vel mattis ante facilisis nec porttitor efficitur</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Eodem modo vel mattis ante facilisis nec porttitor efficitur</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$86.00</span>
                                                 <span class="current_price">$79.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -3384,14 +3383,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="assets/img/product/product3.jpg" alt=""></a>
-                                        <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product4.jpg" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product3.jpg" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product4.jpg" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -3399,14 +3398,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Donec tempus pretium arcu et faucibus commodo</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Donec tempus pretium arcu et faucibus commodo</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$82.00</span>
                                                 <span class="current_price">$75.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -3416,14 +3415,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="assets/img/product/product5.jpg" alt=""></a>
-                                        <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product6.jpg" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product5.jpg" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product6.jpg" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -3431,14 +3430,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Natus erro at congue massa commodo sit Natus erro</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Natus erro at congue massa commodo sit Natus erro</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$80.00</span>
                                                 <span class="current_price">$70.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -3448,14 +3447,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="assets/img/product/product9.jpg" alt=""></a>
-                                        <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product10.jpg" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product9.jpg" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product10.jpg" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -3463,14 +3462,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$72.00</span>
                                                 <span class="current_price">$70.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -3480,14 +3479,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="assets/img/product/product11.jpg" alt=""></a>
-                                        <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product12.jpg" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product11.jpg" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product12.jpg" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -3495,14 +3494,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$65.00</span>
                                                 <span class="current_price">$60.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -3516,14 +3515,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="assets/img/product/product9.jpg" alt=""></a>
-                                        <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product10.jpg" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product9.jpg" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product10.jpg" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -3531,14 +3530,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$72.00</span>
                                                 <span class="current_price">$70.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -3548,14 +3547,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="assets/img/product/product1.jpg" alt=""></a>
-                                        <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product2.jpg" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product1.jpg" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product2.jpg" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -3563,14 +3562,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Eodem modo vel mattis ante facilisis nec porttitor efficitur</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Eodem modo vel mattis ante facilisis nec porttitor efficitur</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$86.00</span>
                                                 <span class="current_price">$79.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -3580,14 +3579,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="assets/img/product/product5.jpg" alt=""></a>
-                                        <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product6.jpg" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product5.jpg" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product6.jpg" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -3595,14 +3594,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Natus erro at congue massa commodo sit Natus erro</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Natus erro at congue massa commodo sit Natus erro</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$80.00</span>
                                                 <span class="current_price">$70.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -3612,14 +3611,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="assets/img/product/product7.jpg" alt=""></a>
-                                        <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product8.jpg" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product7.jpg" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product8.jpg" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -3627,14 +3626,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Nullam maximus eget nisi dignissim sodales eget tempor</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Nullam maximus eget nisi dignissim sodales eget tempor</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$76.00</span>
                                                 <span class="current_price">$75.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -3643,14 +3642,14 @@
                             <article class="single_product">
                                 <figure>
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="assets/img/product/product3.jpg" alt=""></a>
-                                        <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product4.jpg" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product3.jpg" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product4.jpg" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -3658,14 +3657,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Donec tempus pretium arcu et faucibus commodo</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Donec tempus pretium arcu et faucibus commodo</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$82.00</span>
                                                 <span class="current_price">$75.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>
@@ -3675,14 +3674,14 @@
                                 <figure>
 
                                     <div class="product_thumb">
-                                        <a class="primary_img" href="product-details.html"><img src="assets/img/product/product11.jpg" alt=""></a>
-                                        <a class="secondary_img" href="product-details.html"><img src="assets/img/product/product12.jpg" alt=""></a>
+                                        <a class="primary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product11.jpg" alt=""></a>
+                                        <a class="secondary_img" href="{{route('client.product_details')}}"><img src="assets/img/product/product12.jpg" alt=""></a>
                                         <div class="label_product">
                                             <span class="label_sale">Sale</span>
                                         </div>
                                         <div class="action_links">
                                             <ul>
-                                                <li class="wishlist"><a href="wishlist.html" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
+                                                <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true" data-tippy="Add to Wishlist"><i class="ion-android-favorite-outline"></i></a></li>
                                                 <li class="compare"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-tippy="Add to Compare"><i class="ion-ios-settings-strong"></i></a></li>
                                                 <li class="quick_button"><a href="#" data-tippy-placement="top" data-tippy-arrow="true" data-tippy-inertia="true"  data-bs-toggle="modal" data-bs-target="#modal_box" data-tippy="quick view"><i class="ion-ios-search-strong"></i></a></li>
                                             </ul>
@@ -3690,14 +3689,14 @@
                                     </div>
                                     <div class="product_content">
                                         <div class="product_content_inner">
-                                            <h4 class="product_name"><a href="product-details.html">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
+                                            <h4 class="product_name"><a href="{{route('client.product_details')}}">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
                                             <div class="price_box">
                                                 <span class="old_price">$65.00</span>
                                                 <span class="current_price">$60.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
 
                                     </div>

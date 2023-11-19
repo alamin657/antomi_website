@@ -200,7 +200,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
                                     </div>
                                     <div class="product_content list_content">
@@ -222,7 +222,7 @@
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
                                         <div class="action_links">
                                             <ul>
@@ -271,7 +271,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
                                     </div>
                                     <div class="product_content list_content">
@@ -293,7 +293,7 @@
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
                                         <div class="action_links">
                                             <ul>
@@ -342,7 +342,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
                                     </div>
                                     <div class="product_content list_content">
@@ -364,7 +364,7 @@
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
                                         <div class="action_links">
                                             <ul>
@@ -413,7 +413,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
                                     </div>
                                     <div class="product_content list_content">
@@ -435,7 +435,7 @@
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
                                         <div class="action_links">
                                             <ul>
@@ -484,7 +484,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
                                     </div>
                                     <div class="product_content list_content">
@@ -506,7 +506,7 @@
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
                                         <div class="action_links">
                                             <ul>
@@ -555,7 +555,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
                                     </div>
                                     <div class="product_content list_content">
@@ -577,7 +577,7 @@
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
                                         <div class="action_links">
                                             <ul>
@@ -626,7 +626,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
                                     </div>
                                     <div class="product_content list_content">
@@ -648,7 +648,7 @@
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
                                         <div class="action_links">
                                             <ul>
@@ -697,7 +697,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
                                     </div>
                                     <div class="product_content list_content">
@@ -719,7 +719,7 @@
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
                                         <div class="action_links">
                                             <ul>
@@ -768,7 +768,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
                                     </div>
                                     <div class="product_content list_content">
@@ -790,7 +790,7 @@
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
                                         <div class="action_links">
                                             <ul>
@@ -839,7 +839,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
                                     </div>
                                     <div class="product_content list_content">
@@ -861,7 +861,7 @@
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
                                         <div class="action_links">
                                             <ul>
@@ -910,7 +910,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
                                     </div>
                                     <div class="product_content list_content">
@@ -932,7 +932,7 @@
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
                                         <div class="action_links">
                                             <ul>
@@ -981,7 +981,7 @@
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
                                     </div>
                                     <div class="product_content list_content">
@@ -1003,7 +1003,7 @@
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
                                         </div>
                                         <div class="add_to_cart">
-                                            <a href="cart.html" title="Add to cart">Add to cart</a>
+                                            <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                         </div>
                                         <div class="action_links">
                                             <ul>

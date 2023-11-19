@@ -18,6 +18,6 @@
 
     <!-- Main Style CSS -->
     <link rel="stylesheet" href="{{asset('client/css/style.css')}}">
-    <link rel="stylesheet" href="{{asset('client/css/style.min.css')}}">
+
 
 </head>

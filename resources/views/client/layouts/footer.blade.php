@@ -59,7 +59,7 @@
                             <h3>Information</h3>
                             <div class="footer_menu">
                                 <ul>
-                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="{{route('client.about')}}">About Us</a></li>
                                     <li><a href="#">Delivery Information</a></li>
                                     <li><a href="#">New products</a></li>
                                     <li><a href="#">Best sales</a></li>
@@ -116,11 +116,11 @@
 
                             <div class="footer_social">
                                 <ul>
-                                    <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
-                                    <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a class="rss" href="#"><i class="fa fa-rss"></i></a></li>
+                                    <li><a class="facebook" href="#"><i class="fa fa-facebook" id="social-media"></i></a></li>
+                                    <li><a class="twitter" href="#"><i class="fa fa-twitter" id="social-media"></i></a></li>
+                                    <li><a class="instagram" href="#"><i class="fa fa-instagram" id="social-media"></i></a></li>
+                                    <li><a class="linkedin" href="#"><i class="fa fa-linkedin" id="social-media"></i></a></li>
+                                    <li><a class="rss" href="#"><i class="fa fa-rss" id="social-media"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -133,7 +133,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-6">
                         <div class="copyright_area">
-                            <p>&copy; 2022 <a href="index.html" class="text-uppercase">ANTOMI</a>. Made with <i class="fa fa-heart"></i> by <a target="_blank" href="https://www.hasthemes.com">HasThemes</a></p>
+                            <p>&copy; 2023 <a href="{{route('client.home')}}" class="text-uppercase">WAAW Bangladesh</a>. Made with <i class="fa fa-heart"></i> by <a target="_blank" href="https://www.zariq.com.bd">Zariq Ltd</a></p>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6">
@@ -272,6 +272,8 @@
 
     <!-- Main JS -->
     <script src="{{asset('client/js/main.js')}}"></script>
+
+ 
 
 
 

@@ -9,7 +9,7 @@
                 <div class="col-12">
                     <div class="breadcrumb_content">
                         <ul>
-                            <li><a href="index.html">home</a></li>
+                            <li><a href="{{route('client.home')}}">home</a></li>
                             <li>Shopping Cart</li>
                         </ul>
                     </div>
@@ -42,7 +42,7 @@
                                         <tbody>
                                             <tr>
                                                 <td class="product_remove"><a href="#"><i class="fa fa-trash-o"></i></a></td>
-                                                <td class="product_thumb"><a href="#"><img src="assets/img/s-product/product.jpg" alt=""></a></td>
+                                                <td class="product_thumb"><a href="#"><img src="{{asset('client/img/featured-products/product1.jpg')}}" alt=""></a></td>
                                                 <td class="product_name"><a href="#">Handbag fringilla</a></td>
                                                 <td class="product-price">£65.00</td>
                                                 <td class="product_quantity"><label>Quantity</label> <input min="1" max="100" value="1" type="number"></td>
@@ -53,7 +53,7 @@
 
                                             <tr>
                                                 <td class="product_remove"><a href="#"><i class="fa fa-trash-o"></i></a></td>
-                                                <td class="product_thumb"><a href="#"><img src="assets/img/s-product/product2.jpg" alt=""></a></td>
+                                                <td class="product_thumb"><a href="#"><img src="{{asset('client/img/featured-products/product2.jpg')}}" alt=""></a></td>
                                                 <td class="product_name"><a href="#">Handbags justo</a></td>
                                                 <td class="product-price">£90.00</td>
                                                 <td class="product_quantity"><label>Quantity</label> <input min="1" max="100" value="1" type="number"></td>
@@ -63,7 +63,7 @@
                                             </tr>
                                             <tr>
                                                 <td class="product_remove"><a href="#"><i class="fa fa-trash-o"></i></a></td>
-                                                <td class="product_thumb"><a href="#"><img src="assets/img/s-product/product3.jpg" alt=""></a></td>
+                                                <td class="product_thumb"><a href="#"><img src="{{asset('client/img/featured-products/product3.jpg')}}" alt=""></a></td>
                                                 <td class="product_name"><a href="#">Handbag elit</a></td>
                                                 <td class="product-price">£80.00</td>
                                                 <td class="product_quantity"><label>Quantity</label> <input min="1" max="100" value="1" type="number"></td>

@@ -166,7 +166,7 @@
                                 </li> --}}
                                
                                 <li class="menu-item-has-children">
-                                    <a href="contact.html"> Contact Us</a>
+                                    <a href="{{route('client.contuct')}}"> Contact Us</a>
                                 </li>
                             </ul>
                         </div>
@@ -291,7 +291,7 @@
                                             </ul>
                                         </li> --}}
 
-                                        <li><a href="contact.html"> Contact Us</a></li>
+                                        <li><a href="{{route('client.contuct')}}"> Contact Us</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -299,7 +299,7 @@
                         <div class="col-lg-3 col-md-7 col-6">
                             <div class="header_configure_area">
                                 <div class="header_wishlist">
-                                    <a href="wishlist.html"><i class="ion-android-favorite-outline"></i>
+                                    <a href="{{route('client.wishlist')}}"><i class="ion-android-favorite-outline"></i>
                                         <span class="wishlist_count">3</span>
                                     </a>
                                 </div>
@@ -329,7 +329,7 @@
                     </div>
                     <div class="cart_item">
                         <div class="cart_img">
-                            <a href="#"><img src="#" alt=""></a>
+                            <a href="#"><img src="{{asset('client/img/product/men/men1.jpg')}}" alt=""></a>
                         </div>
                         <div class="cart_info">
                             <a href="#">Primis In Faucibus</a>
@@ -341,7 +341,7 @@
                     </div>
                     <div class="cart_item">
                         <div class="cart_img">
-                            <a href="#"><img src="#" alt=""></a>
+                            <a href="#"><img src="{{asset('client/img/product/men/men2.jpg')}}" alt=""></a>
                         </div>
                         <div class="cart_info">
                             <a href="#">Letraset Sheets</a>
@@ -363,10 +363,10 @@
                     </div>
                     <div class="mini_cart_footer">
                         <div class="cart_button">
-                            <a href="cart.html">View cart</a>
+                            <a href="{{route('client.cart')}}">View cart</a>
                         </div>
                         <div class="cart_button">
-                            <a class="active" href="checkout.html">Checkout</a>
+                            <a class="active" href="{{route('client.checkout')}}">Checkout</a>
                         </div>
 
                     </div>
