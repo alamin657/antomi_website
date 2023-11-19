@@ -4,9 +4,9 @@
 	<div class="body">
 		@include('client.layouts.menu')
 
-		
-			@yield('content')
-       
-    
 
+			@yield('content')
+
+
+    </div>
     @include('client.layouts.footer')
