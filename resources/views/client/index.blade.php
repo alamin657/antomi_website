@@ -138,7 +138,7 @@
     <!--banner area end-->
 
     <!--banner area start-->
-    <div class="banner_area banner_three_bottom mb-60">
+    {{-- <div class="banner_area banner_three_bottom mb-60">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6">
@@ -157,7 +157,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!--banner area end-->
 
     <!--home section bg area start-->
@@ -3823,5 +3823,5 @@
         <!--blog area end-->
 
     </div>
-
+</div>
 @endsection

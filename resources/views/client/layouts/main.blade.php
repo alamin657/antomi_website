@@ -6,7 +6,7 @@
 
 		
 			@yield('content')
-       
+	
     
 
     @include('client.layouts.footer')
