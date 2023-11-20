@@ -30,11 +30,12 @@
                             <form action="#">
                                 <div id="slider-range"></div>
                                 <button type="submit">Filter</button>
+                            
                                 <input type="text" name="text" id="amount" />
 
                             </form>
                         </div>
-                        <div class="widget_list">
+                        {{-- <div class="widget_list">
                             <h3>Compare Products</h3>
                             <div class="recent_product_container">
                                 <article class="recent_product_list">
@@ -55,8 +56,8 @@
                                                 </ul>
                                             </div>
                                             <div class="price_box">
-                                                <span class="old_price">$70.00</span>
-                                                <span class="current_price">$65.00</span>
+                                                <span class="old_price">৳70.00</span>
+                                                <span class="current_price">৳65.00</span>
                                             </div>
                                         </div>
                                     </figure>
@@ -79,8 +80,8 @@
                                                 </ul>
                                             </div>
                                             <div class="price_box">
-                                                <span class="old_price">$70.00</span>
-                                                <span class="current_price">$65.00</span>
+                                                <span class="old_price">৳70.00</span>
+                                                <span class="current_price">৳65.00</span>
                                             </div>
                                         </div>
                                     </figure>
@@ -103,8 +104,8 @@
                                                 </ul>
                                             </div>
                                             <div class="price_box">
-                                                <span class="old_price">$70.00</span>
-                                                <span class="current_price">$65.00</span>
+                                                <span class="old_price">৳70.00</span>
+                                                <span class="current_price">৳65.00</span>
                                             </div>
                                         </div>
                                     </figure>
@@ -120,7 +121,7 @@
                                 <a href="#">T-shirt</a>
                                 <a href="#">shirt</a>
                             </div>
-                        </div>
+                        </div> --}}
                     </aside>
                     <!--sidebar widget end-->
                 </div>
@@ -195,8 +196,8 @@
                                                 </ul>
                                             </div>
                                             <div class="price_box">
-                                                <span class="old_price">$80.00</span>
-                                                <span class="current_price">$70.00</span>
+                                                <span class="old_price">৳80.00</span>
+                                                <span class="current_price">৳70.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
@@ -215,8 +216,8 @@
                                             </ul>
                                         </div>
                                         <div class="price_box">
-                                            <span class="old_price">$80.00</span>
-                                            <span class="current_price">$70.00</span>
+                                            <span class="old_price">৳80.00</span>
+                                            <span class="current_price">৳70.00</span>
                                         </div>
                                         <div class="product_desc">
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
@@ -266,8 +267,8 @@
                                                 </ul>
                                             </div>
                                             <div class="price_box">
-                                                <span class="old_price">$75.00</span>
-                                                <span class="current_price">$65.00</span>
+                                                <span class="old_price">৳75.00</span>
+                                                <span class="current_price">৳65.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
@@ -286,8 +287,8 @@
                                             </ul>
                                         </div>
                                         <div class="price_box">
-                                            <span class="old_price">$75.00</span>
-                                            <span class="current_price">$65.00</span>
+                                            <span class="old_price">৳75.00</span>
+                                            <span class="current_price">৳65.00</span>
                                         </div>
                                         <div class="product_desc">
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
@@ -337,8 +338,8 @@
                                                 </ul>
                                             </div>
                                             <div class="price_box">
-                                                <span class="old_price">$85.00</span>
-                                                <span class="current_price">$75.00</span>
+                                                <span class="old_price">৳85.00</span>
+                                                <span class="current_price">৳75.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
@@ -357,8 +358,8 @@
                                             </ul>
                                         </div>
                                         <div class="price_box">
-                                            <span class="old_price">$85.00</span>
-                                            <span class="current_price">$75.00</span>
+                                            <span class="old_price">৳85.00</span>
+                                            <span class="current_price">৳75.00</span>
                                         </div>
                                         <div class="product_desc">
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
@@ -408,8 +409,8 @@
                                                 </ul>
                                             </div>
                                             <div class="price_box">
-                                                <span class="old_price">$60.00</span>
-                                                <span class="current_price">$65.00</span>
+                                                <span class="old_price">৳60.00</span>
+                                                <span class="current_price">৳65.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
@@ -428,8 +429,8 @@
                                             </ul>
                                         </div>
                                         <div class="price_box">
-                                            <span class="old_price">$60.00</span>
-                                            <span class="current_price">$65.00</span>
+                                            <span class="old_price">৳60.00</span>
+                                            <span class="current_price">৳65.00</span>
                                         </div>
                                         <div class="product_desc">
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
@@ -479,8 +480,8 @@
                                                 </ul>
                                             </div>
                                             <div class="price_box">
-                                                <span class="old_price">$55.00</span>
-                                                <span class="current_price">$60.00</span>
+                                                <span class="old_price">৳55.00</span>
+                                                <span class="current_price">৳60.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
@@ -499,8 +500,8 @@
                                             </ul>
                                         </div>
                                         <div class="price_box">
-                                            <span class="old_price">$55.00</span>
-                                            <span class="current_price">$60.00</span>
+                                            <span class="old_price">৳55.00</span>
+                                            <span class="current_price">৳60.00</span>
                                         </div>
                                         <div class="product_desc">
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
@@ -550,8 +551,8 @@
                                                 </ul>
                                             </div>
                                             <div class="price_box">
-                                                <span class="old_price">$62.00</span>
-                                                <span class="current_price">$60.00</span>
+                                                <span class="old_price">৳62.00</span>
+                                                <span class="current_price">৳60.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
@@ -570,8 +571,8 @@
                                             </ul>
                                         </div>
                                         <div class="price_box">
-                                            <span class="old_price">$62.00</span>
-                                            <span class="current_price">$60.00</span>
+                                            <span class="old_price">৳62.00</span>
+                                            <span class="current_price">৳60.00</span>
                                         </div>
                                         <div class="product_desc">
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
@@ -621,8 +622,8 @@
                                                 </ul>
                                             </div>
                                             <div class="price_box">
-                                                <span class="old_price">$70.00</span>
-                                                <span class="current_price">$68.00</span>
+                                                <span class="old_price">৳70.00</span>
+                                                <span class="current_price">৳68.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
@@ -641,8 +642,8 @@
                                             </ul>
                                         </div>
                                         <div class="price_box">
-                                            <span class="old_price">$70.00</span>
-                                            <span class="current_price">$68.00</span>
+                                            <span class="old_price">৳70.00</span>
+                                            <span class="current_price">৳68.00</span>
                                         </div>
                                         <div class="product_desc">
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
@@ -692,8 +693,8 @@
                                                 </ul>
                                             </div>
                                             <div class="price_box">
-                                                <span class="old_price">$56.00</span>
-                                                <span class="current_price">$50.00</span>
+                                                <span class="old_price">৳56.00</span>
+                                                <span class="current_price">৳50.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
@@ -712,8 +713,8 @@
                                             </ul>
                                         </div>
                                         <div class="price_box">
-                                            <span class="old_price">$80.00</span>
-                                            <span class="current_price">$70.00</span>
+                                            <span class="old_price">৳80.00</span>
+                                            <span class="current_price">৳70.00</span>
                                         </div>
                                         <div class="product_desc">
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
@@ -763,8 +764,8 @@
                                                 </ul>
                                             </div>
                                             <div class="price_box">
-                                                <span class="old_price">$80.00</span>
-                                                <span class="current_price">$70.00</span>
+                                                <span class="old_price">৳80.00</span>
+                                                <span class="current_price">৳70.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
@@ -783,8 +784,8 @@
                                             </ul>
                                         </div>
                                         <div class="price_box">
-                                            <span class="old_price">$80.00</span>
-                                            <span class="current_price">$70.00</span>
+                                            <span class="old_price">৳80.00</span>
+                                            <span class="current_price">৳70.00</span>
                                         </div>
                                         <div class="product_desc">
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
@@ -834,8 +835,8 @@
                                                 </ul>
                                             </div>
                                             <div class="price_box">
-                                                <span class="old_price">$50.00</span>
-                                                <span class="current_price">$45.00</span>
+                                                <span class="old_price">৳50.00</span>
+                                                <span class="current_price">৳45.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
@@ -854,8 +855,8 @@
                                             </ul>
                                         </div>
                                         <div class="price_box">
-                                            <span class="old_price">$50.00</span>
-                                            <span class="current_price">$45.00</span>
+                                            <span class="old_price">৳50.00</span>
+                                            <span class="current_price">৳45.00</span>
                                         </div>
                                         <div class="product_desc">
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
@@ -905,8 +906,8 @@
                                                 </ul>
                                             </div>
                                             <div class="price_box">
-                                                <span class="old_price">$85.00</span>
-                                                <span class="current_price">$80.00</span>
+                                                <span class="old_price">৳85.00</span>
+                                                <span class="current_price">৳80.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
@@ -925,8 +926,8 @@
                                             </ul>
                                         </div>
                                         <div class="price_box">
-                                            <span class="old_price">$80.00</span>
-                                            <span class="current_price">$70.00</span>
+                                            <span class="old_price">৳80.00</span>
+                                            <span class="current_price">৳70.00</span>
                                         </div>
                                         <div class="product_desc">
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>
@@ -976,8 +977,8 @@
                                                 </ul>
                                             </div>
                                             <div class="price_box">
-                                                <span class="old_price">$76.00</span>
-                                                <span class="current_price">$72.00</span>
+                                                <span class="old_price">৳76.00</span>
+                                                <span class="current_price">৳72.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
@@ -996,8 +997,8 @@
                                             </ul>
                                         </div>
                                         <div class="price_box">
-                                            <span class="old_price">$80.00</span>
-                                            <span class="current_price">$70.00</span>
+                                            <span class="old_price">৳80.00</span>
+                                            <span class="current_price">৳70.00</span>
                                         </div>
                                         <div class="product_desc">
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere metus vitae arcu imperdiet, id aliquet ante scelerisque. Sed sit amet sem vitae urna fringilla tempus.</p>

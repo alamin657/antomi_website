@@ -233,33 +233,33 @@
                                             <tbody>
                                                 <tr>
                                                     <td> Handbag fringilla <strong> × 2</strong></td>
-                                                    <td> $165.00</td>
+                                                    <td> ৳165.00</td>
                                                 </tr>
                                                 <tr>
                                                     <td> Handbag justo <strong> × 2</strong></td>
-                                                    <td> $50.00</td>
+                                                    <td> ৳50.00</td>
                                                 </tr>
                                                 <tr>
                                                     <td> Handbag elit <strong> × 2</strong></td>
-                                                    <td> $50.00</td>
+                                                    <td> ৳50.00</td>
                                                 </tr>
                                                 <tr>
                                                     <td> Handbag Rutrum <strong> × 1</strong></td>
-                                                    <td> $50.00</td>
+                                                    <td> ৳50.00</td>
                                                 </tr>
                                             </tbody>
                                             <tfoot>
                                                 <tr>
                                                     <th>Cart Subtotal</th>
-                                                    <td>$215.00</td>
+                                                    <td>৳215.00</td>
                                                 </tr>
                                                 <tr>
                                                     <th>Shipping</th>
-                                                    <td><strong>$5.00</strong></td>
+                                                    <td><strong>৳5.00</strong></td>
                                                 </tr>
                                                 <tr class="order_total">
                                                     <th>Order Total</th>
-                                                    <td><strong>$220.00</strong></td>
+                                                    <td><strong>৳220.00</strong></td>
                                                 </tr>
                                             </tfoot>
                                         </table>

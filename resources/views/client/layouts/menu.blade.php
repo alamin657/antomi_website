@@ -219,7 +219,7 @@
                                 <div class="mini_cart_wrapper">
                                     <a href="javascript:void(0)">
                                         <i class="fa fa-shopping-bag"></i>
-                                        <span class="cart_price">$152.00 <i class="ion-ios-arrow-down"></i></span>
+                                        <span class="cart_price">৳ 152.00 <i class="ion-ios-arrow-down"></i></span>
                                         <span class="cart_count">2</span>
 
                                     </a>
@@ -246,7 +246,7 @@
                         </div>
                         <div class="cart_info">
                             <a href="#">Primis In Faucibus</a>
-                            <p>Qty: 1 X <span> $60.00 </span></p>
+                            <p>Qty: 1 X <span> ৳60.00 </span></p>
                         </div>
                         <div class="cart_remove">
                             <a href="#"><i class="ion-android-close"></i></a>
@@ -258,7 +258,7 @@
                         </div>
                         <div class="cart_info">
                             <a href="#">Letraset Sheets</a>
-                            <p>Qty: 1 X <span> $60.00 </span></p>
+                            <p>Qty: 1 X <span> <i class="fa-solid fa-bangladeshi-taka-sign"></i> 60.00 </span></p>
                         </div>
                         <div class="cart_remove">
                             <a href="#"><i class="ion-android-close"></i></a>
@@ -267,11 +267,11 @@
                     <div class="mini_cart_table">
                         <div class="cart_total">
                             <span>Sub total:</span>
-                            <span class="price">$138.00</span>
+                            <span class="price">৳138.00</span>
                         </div>
                         <div class="cart_total mt-10">
                             <span>total:</span>
-                            <span class="price">$138.00</span>
+                            <span class="price">৳138.00</span>
                         </div>
                     </div>
                     <div class="mini_cart_footer">
