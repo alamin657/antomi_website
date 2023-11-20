@@ -40,9 +40,9 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-5 col-sm-7">
                         <div class="widgets_container contact_us">
-                            <h3>GET THE APP</h3>
+                            <h3>Information</h3>
                             <div class="aff_content">
-                                <p><strong>ANTOMI</strong> App is now available on Google Play & App Store. Get it now.</p>
+                                <p><strong>WAAW Bangladesh</strong> is focused on providing an excellent customer experience, ease-of-purchase, comprehensive customer care and a hassle-free shopping.</p>
                             </div>
                             <div class="app_img">
                                 <figure class="app_img">
@@ -54,7 +54,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-3 col-sm-5">
+                    {{--  <div class="col-lg-2 col-md-3 col-sm-5">
                         <div class="widgets_container widget_menu">
                             <h3>Information</h3>
                             <div class="footer_menu">
@@ -68,8 +68,8 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-2 col-md-4 col-sm-6">
+                    </div>  --}}
+                    <div class="col-lg-3 col-md-4 col-sm-6">
                         <div class="widgets_container widget_menu">
                             <h3>My Account</h3>
                             <div class="footer_menu">
@@ -77,24 +77,20 @@
                                     <li><a href="my-account.html">My Account</a></li>
                                     <li><a href="cart.html">Shopping Cart</a></li>
                                     <li><a href="wishlist.html">Wish List</a></li>
-                                    <li><a href="#">Prices drop</a></li>
                                     <li><a href="#">Order History</a></li>
-                                    <li><a href="#">International Orders</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-5 col-sm-6">
+                    <div class="col-lg-3 col-md-5 col-sm-6">
                         <div class="widgets_container widget_menu">
                             <h3>Customer Service</h3>
                             <div class="footer_menu">
                                 <ul>
-                                    <li><a href="#">Sitemap</a></li>
                                     <li><a href="my-account.html">My Account</a></li>
                                     <li><a href="#">Delivery Information</a></li>
                                     <li><a href="#">Order History</a></li>
                                     <li><a href="wishlist.html">Wish List</a></li>
-                                    <li><a href="#">Specials</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -133,7 +129,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-6">
                         <div class="copyright_area">
-                            <p>&copy; 2023 <a href="{{route('client.home')}}" class="text-uppercase">WAAW Bangladesh</a>. Made with <i class="fa fa-heart"></i> by <a target="_blank" href="https://www.zariq.com.bd">Zariq Ltd</a></p>
+                            <p>&copy; 2023 <a href="{{route('client.home')}}" class="text-uppercase">WAAW Bangladesh</a>. Made by <i class="fa fa-heart"></i>  <a target="_blank" href="https://www.zariq.com.bd">Zariq Ltd</a></p>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6">
@@ -273,7 +269,7 @@
     <!-- Main JS -->
     <script src="{{asset('client/js/main.js')}}"></script>
 
- 
+
 
 
 

@@ -6,14 +6,14 @@
     01. header css here
     02. slider area css here
     03. product section css here
-    04. banner section css here 
+    04. banner section css here
     05. blog area css here
     06. newsletter area css here
     07. footer area css here
     08. shop page css here
-    09. error page css heer 
+    09. error page css heer
     10. about page css here
-    11. blog page css here 
+    11. blog page css here
     12. blog details css here
     13. cart page css here
     14. checkout page css here
@@ -169,7 +169,7 @@ figure {
   margin: 0;
 }
 
-/*-- 
+/*--
     - Common Classes
 -----------------------------------------*/
 .fix {
@@ -219,7 +219,7 @@ figure {
   padding: 15px;
 }
 
-/*-- 
+/*--
     - Background color
 -----------------------------------------*/
 .bg-white {
@@ -267,10 +267,10 @@ figure {
   height: 100%;
 }
 
-/*-- 
+/*--
     - color
 -----------------------------------------*/
-/*-- 
+/*--
     - Input Placeholder
 -----------------------------------------*/
 input:-moz-placeholder,
@@ -297,8 +297,8 @@ textarea:-ms-input-placeholder {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
-/*-- 
-    Scroll Up 
+/*--
+    Scroll Up
 -----------------------------------------*/
 #scrollUp {
   background: #c40316 none repeat scroll 0 0;
@@ -331,7 +331,7 @@ textarea:-ms-input-placeholder {
   animation-iteration-count: infinite;
 }
 
-/*-- 
+/*--
     - Main Wrapper
 -----------------------------------------*/
 .main-wrapper.header-transparent {
@@ -339,7 +339,7 @@ textarea:-ms-input-placeholder {
   margin: 0 !important;
 }
 
-/*-- 
+/*--
     - Section Padding
 -------------------------------------*/
 .section-ptb {
@@ -1974,10 +1974,11 @@ textarea:-ms-input-placeholder {
 
 /*header bottom css heer*/
 .header_bottom .column1 {
-  -webkit-box-flex: 0;
-  -ms-flex: 0 0 21%;
-  flex: 0 0 21%;
-  max-width: 21%;
+-webkit-box-flex: 0;
+    -ms-flex: 0 0 21%;
+    flex: 0 0 31%;
+    max-width: 24%;
+    margin-right: 70px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2001,8 +2002,8 @@ textarea:-ms-input-placeholder {
 .header_bottom .column2 {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 56%;
-  flex: 0 0 56%;
-  max-width: 56%;
+  flex: 0 0 63%;
+  max-width: 63%;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2109,7 +2110,7 @@ textarea:-ms-input-placeholder {
   }
 }
 
-.hover_category::before {
+/* .hover_category::before {
   content: "";
   width: 1px;
   height: 16px;
@@ -2118,7 +2119,7 @@ textarea:-ms-input-placeholder {
   top: 50%;
   margin-top: -8px;
   right: 0;
-}
+} */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .hover_category::before {
@@ -2256,6 +2257,7 @@ textarea:-ms-input-placeholder {
   width: 100%;
   border-top: 2px solid #ebebeb;
   border-right: 2px solid #ebebeb;
+  border-left: 2px solid #ebebeb;
   border-bottom: 2px solid #ebebeb;
   border-radius: 0 5px 5px 0;
 }
