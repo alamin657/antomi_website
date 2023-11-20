@@ -29,7 +29,7 @@
                             <div class="product-details-tab">
                                 <div id="img-1" class="zoomWrapper single-zoom">
                                     <a href="#">
-                                        <img id="zoom1" src="{{asset('client/img/product/product-category/product1.jpg')}}" data-zoom-image="assets/img/product/productbig5.jpg" alt="big-1">
+                                        <img id="zoom1" src="{{asset('client/img/product/product-category/product1.jpg')}}" data-zoom-image="{{asset('client/img/product/product-category/product1.jpg')}}" alt="big-1">
                                     </a>
                                 </div>
                                 <div class="single-zoom-thumb">
@@ -66,13 +66,13 @@
                             <div class="product_d_right">
                                 <form action="#">
 
-                                    <h3><a href="#">Nonstick Dishwasher PFOA</a></h3>
-                                    <div class="product_nav">
+                                    <h3><a href="#">Mens Fashionable dress</a></h3>
+                                    {{--  <div class="product_nav">
                                         <ul>
                                             <li class="prev"><a href="product-details.html"><i class="fa fa-angle-left"></i></a></li>
                                             <li class="next"><a href="variable-product.html"><i class="fa fa-angle-right"></i></a></li>
                                         </ul>
-                                    </div>
+                                    </div>  --}}
                                     <div class="product_rating">
                                         <ul>
                                             <li><a href="#"><i class="ion-android-star-outline"></i></a></li>
@@ -80,7 +80,7 @@
                                             <li><a href="#"><i class="ion-android-star-outline"></i></a></li>
                                             <li><a href="#"><i class="ion-android-star-outline"></i></a></li>
                                             <li><a href="#"><i class="ion-android-star-outline"></i></a></li>
-                                            <li class="review"><a href="#">(1 customer review )</a></li>
+                                            {{--  <li class="review"><a href="#">(1 customer review )</a></li>  --}}
                                         </ul>
                                     </div>
                                     <div class="price_box">
@@ -101,23 +101,34 @@
                                         </ul>
                                     </div>
                                     <div class="product_variant quantity">
+                                         <div class="variants_size px-2">
+                                            <h2>size</h2>
+                                            <select class="select_option">
+                                                <option selected value="1">s</option>
+                                                <option value="1">m</option>
+                                                <option value="1">l</option>
+                                                <option value="1">xl</option>
+                                                <option value="1">xxl</option>
+                                            </select>
+                                        </div>
                                         <label>quantity</label>
                                         <input min="1" max="100" value="1" type="number">
+
                                         <button class="button" type="submit">add to cart</button>
 
                                     </div>
-                                    <div class=" product_d_action">
+                                    {{--  <div class=" product_d_action">
                                         <ul>
                                             <li><a href="#" title="Add to wishlist">+ Add to Wishlist</a></li>
                                             <li><a href="#" title="Add to wishlist">+ Compare</a></li>
                                         </ul>
-                                    </div>
+                                    </div>  --}}
                                     <div class="product_meta">
                                         <span>Category: <a href="#">Clothing</a></span>
                                     </div>
 
                                 </form>
-                                <div class="priduct_social">
+                                {{--  <div class="priduct_social">
                                     <ul>
                                         <li><a class="facebook" href="#" title="facebook"><i class="fa fa-facebook"></i> Like</a></li>
                                         <li><a class="twitter" href="#" title="twitter"><i class="fa fa-twitter"></i> tweet</a></li>
@@ -125,7 +136,7 @@
                                         <li><a class="google-plus" href="#" title="google +"><i class="fa fa-google-plus"></i> share</a></li>
                                         <li><a class="linkedin" href="#" title="linkedin"><i class="fa fa-linkedin"></i> linked</a></li>
                                     </ul>
-                                </div>
+                                </div>  --}}
 
                             </div>
                         </div>
@@ -143,9 +154,9 @@
                                         <li>
                                             <a class="active" data-toggle="tab" href="#info" role="tab" aria-controls="info" aria-selected="false">Description</a>
                                         </li>
-                                        <li>
+                                        {{--  <li>
                                             <a data-toggle="tab" href="#sheet" role="tab" aria-controls="sheet" aria-selected="false">Specification</a>
-                                        </li>
+                                        </li>  --}}
                                         <li>
                                             <a data-toggle="tab" href="#reviews" role="tab" aria-controls="reviews" aria-selected="false">Reviews (1)</a>
                                         </li>
@@ -158,7 +169,7 @@
                                             <p>Pellentesque aliquet, sem eget laoreet ultrices, ipsum metus feugiat sem, quis fermentum turpis eros eget velit. Donec ac tempus ante. Fusce ultricies massa massa. Fusce aliquam, purus eget sagittis vulputate, sapien libero hendrerit est, sed commodo augue nisi non neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, lorem et placerat vestibulum, metus nisi posuere nisl, in accumsan elit odio quis mi. Cras neque metus, consequat et blandit et, luctus a nunc. Etiam gravida vehicula tellus, in imperdiet ligula euismod eget.</p>
                                         </div>
                                     </div>
-                                    <div class="tab-pane fade" id="sheet" role="tabpanel">
+                                    {{--  <div class="tab-pane fade" id="sheet" role="tabpanel">
                                         <div class="product_d_table">
                                             <form action="#">
                                                 <table>
@@ -182,7 +193,7 @@
                                         <div class="product_info_content">
                                             <p>Fashion has been creating well-designed collections since 2010. The brand offers feminine designs delivering stylish separates and statement dresses which have since evolved into a full ready-to-wear collection in which every item is a vital part of a womans wardrobe. The result? Cool, easy, chic looks with youthful elegance and unmistakable signature style. All the beautiful pieces are made in Italy and manufactured with the greatest attention. Now Fashion extends to a range of accessories including shoes, hats, belts and more!</p>
                                         </div>
-                                    </div>
+                                    </div>  --}}
 
                                     <div class="tab-pane fade" id="reviews" role="tabpanel">
                                         <div class="reviews_wrapper">
