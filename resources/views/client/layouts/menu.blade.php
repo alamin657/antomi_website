@@ -1,4 +1,6 @@
+
  <div class="off_canvars_overlay"></div>
+ {{--  phone devices  --}}
     <div class="Offcanvas_menu">
         <div class="container">
             <div class="row">
@@ -11,19 +13,20 @@
                             <a href="javascript:void(0)"><i class="ion-android-close"></i></a>
                         </div>
                         <div class="antomi_message">
-                            <p>Get free shipping – Free 30 day money back guarantee</p>
+                            <p>Step into  the festival season with wawa Bangladesh</p>
                         </div>
                         <div class="header_top_settings text-end">
                             <ul>
-                                <li><a href="#">Store Locations</a></li>
-                                <li><a href="#">Track Your Order</a></li>
+                                <li><a href="#">login</a></li>
+                                <li><a href="{{ route('client.wishlist') }}">wishlist</a></li>
+                                <li><a href="{{ route('client.cart') }}">cart</a></li>
                                 <li>Hotline: <a href="tel:+0123456789">0123456789 </a></li>
                                 <li>Quality Guarantee Of Products</li>
                             </ul>
                         </div>
                         <div class="search_container">
                             <form action="#">
-                                <div class="hover_category">
+                                {{--  <div class="hover_category">
                                     <select class="select_option" name="select" id="categori1">
                                         <option selected value="1">All Categories</option>
                                         <option value="2">Accessories</option>
@@ -42,7 +45,7 @@
                                         <option value="15">Watchs</option>
                                         <option value="16">Electronic</option>
                                     </select>
-                                </div>
+                                </div>  --}}
                                 <div class="search_box">
                                     <input placeholder="Search product..." type="text">
                                     <button type="submit">Search</button>
@@ -51,8 +54,7 @@
                         </div>
                         <div id="menu" class="text-start ">
                             <ul class="offcanvas_main_menu">
-                                <li class="menu-item-has-children active">
-                                    <a href="#">Home</a>
+                                <li class="menu-item-has-children active"> <a href="{{ route('client.home') }}">Home</a>
                                     {{-- <ul class="sub-menu">
                                         <li><a href="{{route('client.home')}}">Home 1</a></li>
                                         <li><a href="index-2.html">Home 2</a></li>
@@ -63,121 +65,18 @@
                                         <li><a href="index-7.html">Home 7</a></li>
                                     </ul> --}}
                                 </li>
-                                 <li class="menu-item-has-children">
-                                    <a href="{{route('client.about')}}">About Us</a>
+                                 <li class="menu-item-has-children active"> <a href="{{ route('client.shop') }}">Product</a>
                                 </li>
-                                <li class="menu-item-has-children">
-                                    <a href="{{route('client.shop')}}">Shop</a>
+                                 <li class="menu-item-has-children active"> <a href="{{ route('client.shop') }}">Men</a></li>
+                                 <li class="menu-item-has-children active"> <a href="{{ route('client.shop') }}">Women</a></li>
+                                  <li class="menu-item-has-children active"> <a href="{{ route('client.shop') }}">Kids</a>
                                     <ul class="sub-menu">
-                                        <li class="menu-item-has-children">
-                                            <a href="{{route('client.shop')}}">Men</a>
-                                            <ul class="sub-menu">
-
-                                               <li><a href="{{route('client.shop')}}">Premium panjabi</a></li>
-                                                <li><a href="{{route('client.shop')}}">Classic Panjabi</a></li>
-                                                <li><a href="{{route('client.shop')}}">Fashion panjabi </a></li>
-                                                <li><a href="{{route('client.shop')}}"> Fashion panjabi</a></li>
-                                                <li><a href="{{route('client.shop')}}">Fashion panjabi</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item-has-children">
-                                            <a href="{{route('client.shop')}}">Women</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="{{route('client.shop')}}">T-Shirt</a></li>
-                                                <li><a href="{{route('client.shop')}}">Regular t-shirt</a></li>
-                                                <li><a href="{{route('client.shop')}}">Henry t-shirt</a></li>
-                                                <li><a href="{{route('client.shop')}}">Boxy t-shirt</a></li>
-                                                <li><a href="{{route('client.shop')}}">Sports t-shirt</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item-has-children">
-                                            <a href="{{route('client.shop')}}">Kids</a>
-                                            <ul class="sub-menu">
-                                               <li><a href="{{route('client.shop')}}">Denin Trouser</a></li>
-                                                            <li><a href="{{route('client.shop')}}">Chino Trouser</a></li>
-                                                            <li><a href="{{route('client.shop')}}">Formar Trouser</a></li>
-                                                            <li><a href="{{route('client.shop')}}">product variable</a></li>
-                                                            <li><a href="{{route('client.shop')}}">product countdown</a></li>
-                                            </ul>
-                                        </li>
+                                        <li><a href="{{ route('client.shop') }}">Boys </a></li>
+                                        <li><a href="{{ route('client.shop') }}">girls</a></li>
+                                        <li><a href="{{ route('client.shop') }}">New Born Baby</a></li>
                                     </ul>
                                 </li>
-
-                                 <li class="mega_items"><a href="{{route('client.shop')}}">shop<i class="fa fa-angle-down"></i></a>
-                                            <div class="mega_menu">
-                                                <ul class="mega_menu_inner">
-                                                    <li><a href="{{route('client.shop')}}">Men</a>
-                                                        <ul>
-                                                            <li><a href="{{route('client.shop')}}">Premium panjabi</a></li>
-                                                            <li><a href="{{route('client.shop')}}">Classic Panjabi</a></li>
-                                                            <li><a href="{{route('client.shop')}}">Fashion panjabi </a></li>
-                                                            <li><a href="{{route('client.shop')}}"> Fashion panjabi</a></li>
-                                                            <li><a href="{{route('client.shop')}}">Fashion panjabi</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li><a href="{{route('client.shop')}}">Women</a>
-                                                        <ul>
-                                                            <li><a href="{{route('client.shop')}}">T-Shirt</a></li>
-                                                            <li><a href="{{route('client.shop')}}">Regular t-shirt</a></li>
-                                                            <li><a href="{{route('client.shop')}}">Henry t-shirt</a></li>
-                                                            <li><a href="{{route('client.shop')}}">Boxy t-shirt</a></li>
-                                                            <li><a href="{{route('client.shop')}}">Sports t-shirt</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li><a href="{{route('client.shop')}}">Kids</a>
-                                                        <ul>
-                                                            <li><a href="{{route('client.shop')}}">Denin Trouser</a></li>
-                                                            <li><a href="{{route('client.shop')}}">Chino Trouser</a></li>
-                                                            <li><a href="{{route('client.shop')}}">Formar Trouser</a></li>
-                                                            <li><a href="{{route('client.shop')}}">product variable</a></li>
-                                                            <li><a href="{{route('client.shop')}}">product countdown</a></li>
-
-                                                        </ul>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </li>
-                                {{-- <li class="menu-item-has-children">
-                                    <a href="#">blog</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="blog.html">blog</a></li>
-                                        <li><a href="blog-details.html">blog details</a></li>
-                                        <li><a href="blog-fullwidth.html">blog fullwidth</a></li>
-                                        <li><a href="blog-sidebar.html">blog sidebar</a></li>
-                                        <li><a href="blog-no-sidebar.html">blog no sidebar</a></li>
-                                    </ul>
-
-                                </li> --}}
-                                {{-- <li class="menu-item-has-children">
-                                    <a href="#">pages </a>
-                                    <ul class="sub-menu">
-                                        <li><a href="client.about">About Us</a></li>
-                                        <li><a href="faq.html">Frequently Questions</a></li>
-                                        <li><a href="privacy-policy.html">privacy policy</a></li>
-                                        <li><a href="contact.html">contact</a></li>
-                                        <li><a href="login.html">login</a></li>
-                                        <li><a href="404.html">Error 404</a></li>
-                                        <li><a href="compare.html">compare</a></li>
-                                        <li><a href="coming-soon.html">coming soon</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item-has-children">
-                                    <a href="my-account.html">my account</a>
-                                </li> --}}
-                               
-                                <li class="menu-item-has-children">
-                                    <a href="{{route('client.contuct')}}"> Contact Us</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="Offcanvas_footer">
-                            <span><a href="#"><i class="fa fa-envelope-o"></i> demo@example.com</a></span>
-                            <ul>
-                                <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li class="pinterest"><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
-                                <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li class="menu-item-has-children active"> <a href="{{ route('client.shop') }}">Wedding</a></li>
                             </ul>
                         </div>
                     </div>
@@ -186,6 +85,8 @@
         </div>
     </div>
     <!--Offcanvas menu area end-->
+
+    {{--  large devices  --}}
     <!--header area start-->
     <header>
         <div class="main_header">
@@ -195,14 +96,15 @@
                     <div class="row align-items-center">
                         <div class="col-lg-4 col-md-5">
                             <div class="antomi_message">
-                                <p>Get free shipping – Free 30 day money back guarantee</p>
+                                <p>Step into  the festival season with WAWA Bangladesh</p>
                             </div>
                         </div>
                         <div class="col-lg-8 col-md-7">
                             <div class="header_top_settings text-end">
                                 <ul>
-                                    <li><a href="#">Store Locations</a></li>
-                                    <li><a href="#">Track Your Order</a></li>
+                                    <li><a href="#">login</a></li>
+                                    <li><a href="{{ route('client.wishlist') }}">wishlist</a></li>
+                                    <li><a href="{{ route('client.cart') }}">cart</a></li>
                                     <li>Hotline: <a href="tel:+0123456789">0123456789 </a></li>
                                     <li>Quality Guarantee Of Products</li>
                                 </ul>
@@ -224,7 +126,7 @@
                             <div class="main_menu menu_position text-center">
                                 <nav>
                                     <ul>
-                                        <li><a class="active" href="{{route('client.home')}}">home</a>
+                                        <li><a href="{{route('client.home')}}">home</a>
                                             {{-- <ul class="sub_menu">
                                                 <li><a href="{{route('client.home')}}">Home shop 1</a></li>
                                                 <li><a href="index-2.html">Home shop 2</a></li>
@@ -235,9 +137,9 @@
                                                 <li><a href="index-7.html">Home shop 7</a></li>
                                             </ul> --}}
                                         </li>
-                                        <li><a href="{{route('client.about')}}">About Us</a></li>
-                                        <li class="mega_items"><a href="{{route('client.shop')}}">shop<i class="fa fa-angle-down"></i></a>
-                                            <div class="mega_menu">
+                                        {{--  <li><a href="{{route('client.about')}}">About Us</a></li>  --}}
+                                        <li class="mega_items"><a href="{{route('client.shop')}}">Product</a>
+                                            {{--  <div class="mega_menu">
                                                 <ul class="mega_menu_inner">
                                                     <li><a href="{{route('client.shop')}}">Men</a>
                                                         <ul>
@@ -268,7 +170,7 @@
                                                         </ul>
                                                     </li>
                                                 </ul>
-                                            </div>
+                                            </div>  --}}
                                         </li>
                                         {{-- <li><a href="blog.html">blog<i class="fa fa-angle-down"></i></a>
                                             <ul class="sub_menu pages">
@@ -291,7 +193,18 @@
                                             </ul>
                                         </li> --}}
 
-                                        <li><a href="{{route('client.contuct')}}"> Contact Us</a></li>
+                                        <li><a href="{{route('client.home')}}">Men</a></li>
+                                        <li><a href="{{route('client.home')}}">Women</a></li>
+
+                                        <li><a href="{{route('client.home')}}">Kids<i class="fa fa-angle-down"></i></a>
+                                            <ul class="sub_menu">
+                                                <li><a href="index-2.html">boys</a></li>
+                                                <li><a href="index-3.html">girls</a></li>
+                                                <li><a href="index-4.html">new born baby</a></li>
+                                            </ul>
+                                        </li>
+
+                                        <li><a href="#">Wedding</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -316,7 +229,7 @@
                     </div>
                 </div>
                 <!--header middel end-->
-                
+
                  <!--mini cart-->
                 <div class="mini_cart">
                     <div class="cart_close">
@@ -376,7 +289,7 @@
                 <!--header bottom satrt-->
                 <div class="header_bottom">
                     <div class="row align-items-center">
-                        <div class="column1 col-lg-3 col-md-6">
+                        <div class="column1 col-lg-4 col-md-6">
                             <div class="categories_menu categories_three">
                                 <div class="categories_title">
                                     <h2 class="categori_toggle">ALL CATEGORIES</h2>
@@ -500,11 +413,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="column2 col-lg-6 ">
+                        <div class="column2 col-lg-8 ">
                             <div class="search_container">
                                 <form action="#">
                                     <div class="hover_category">
-                                        <select class="select_option" name="select" id="categori2">
+                                        {{--  <select class="select_option" name="select" id="categori2">
                                             <option selected value="1">All Categories</option>
                                             <option value="2">Accessories</option>
                                             <option value="3">Accessories & More</option>
@@ -521,7 +434,7 @@
                                             <option value="14">Laptops & Desktops</option>
                                             <option value="15">Watchs</option>
                                             <option value="16">Electronic</option>
-                                        </select>
+                                        </select>  --}}
                                     </div>
                                     <div class="search_box">
                                         <input placeholder="Search product..." type="text">
@@ -531,14 +444,15 @@
                             </div>
 
                         </div>
-                        <div class="column3 col-lg-3 col-md-6">
+                        {{--  <div class="column3 col-lg-3 col-md-6">
                             <div class="header_bigsale">
                                 <a href="#">BIG SALE BLACK FRIDAY</a>
                             </div>
-                        </div>
+                        </div>  --}}
                     </div>
                 </div>
                 <!--header bottom end-->
             </div>
         </div>
     </header>
+    {{--  large devices  --}}
