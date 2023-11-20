@@ -47,14 +47,14 @@
 
 
                             </div>
-                            <div class="app_img">
+                            {{-- <div class="app_img">
                                 <figure class="app_img">
                                     <a href="#"><img src="#" alt=""></a>
                                 </figure>
                                 <figure class="app_img">
                                     <a href="#"><img src="#" alt=""></a>
                                 </figure>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                     {{--  <div class="col-lg-2 col-md-3 col-sm-5">
