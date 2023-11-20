@@ -84,8 +84,8 @@
                                         </ul>
                                     </div>
                                     <div class="price_box">
-                                        <span class="old_price">$80.00</span>
-                                        <span class="current_price">$70.00</span>
+                                        <span class="old_price">৳80.00</span>
+                                        <span class="current_price">৳70.00</span>
                                     </div>
                                     <div class="product_desc">
                                         <p>eget velit. Donec ac tempus ante. Fusce ultricies massa massa. Fusce aliquam, purus eget sagittis vulputate, sapien libero hendrerit est, sed commodo augue nisi non neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, lorem et placerat vestibulum, metus nisi posuere nisl, in </p>
@@ -314,8 +314,8 @@
                                         <div class="product_content_inner">
                                             <h4 class="product_name"><a href="product-details.html">Natus erro at congue massa commodo sit Natus erro</a></h4>
                                             <div class="price_box">
-                                                <span class="old_price">$80.00</span>
-                                                <span class="current_price">$70.00</span>
+                                                <span class="old_price">৳80.00</span>
+                                                <span class="current_price">৳70.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
@@ -346,8 +346,8 @@
                                         <div class="product_content_inner">
                                             <h4 class="product_name"><a href="product-details.html">Nullam maximus eget nisi dignissim sodales eget tempor</a></h4>
                                             <div class="price_box">
-                                                <span class="old_price">$76.00</span>
-                                                <span class="current_price">$75.00</span>
+                                                <span class="old_price">৳76.00</span>
+                                                <span class="current_price">৳75.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
@@ -378,8 +378,8 @@
                                         <div class="product_content_inner">
                                             <h4 class="product_name"><a href="product-details.html">Eodem modo vel mattis ante facilisis nec porttitor efficitur</a></h4>
                                             <div class="price_box">
-                                                <span class="old_price">$86.00</span>
-                                                <span class="current_price">$79.00</span>
+                                                <span class="old_price">৳86.00</span>
+                                                <span class="current_price">৳79.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
@@ -410,8 +410,8 @@
                                         <div class="product_content_inner">
                                             <h4 class="product_name"><a href="product-details.html">Donec tempus pretium arcu et faucibus commodo</a></h4>
                                             <div class="price_box">
-                                                <span class="old_price">$82.00</span>
-                                                <span class="current_price">$75.00</span>
+                                                <span class="old_price">৳82.00</span>
+                                                <span class="current_price">৳75.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
@@ -442,8 +442,8 @@
                                         <div class="product_content_inner">
                                             <h4 class="product_name"><a href="product-details.html">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
                                             <div class="price_box">
-                                                <span class="old_price">$72.00</span>
-                                                <span class="current_price">$70.00</span>
+                                                <span class="old_price">৳72.00</span>
+                                                <span class="current_price">৳70.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
@@ -474,8 +474,8 @@
                                         <div class="product_content_inner">
                                             <h4 class="product_name"><a href="product-details.html">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
                                             <div class="price_box">
-                                                <span class="old_price">$65.00</span>
-                                                <span class="current_price">$60.00</span>
+                                                <span class="old_price">৳65.00</span>
+                                                <span class="current_price">৳60.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
@@ -510,8 +510,8 @@
                                         <div class="product_content_inner">
                                             <h4 class="product_name"><a href="product-details.html">Natus erro at congue massa commodo sit Natus erro</a></h4>
                                             <div class="price_box">
-                                                <span class="old_price">$80.00</span>
-                                                <span class="current_price">$70.00</span>
+                                                <span class="old_price">৳80.00</span>
+                                                <span class="current_price">৳70.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
@@ -542,8 +542,8 @@
                                         <div class="product_content_inner">
                                             <h4 class="product_name"><a href="product-details.html">Nullam maximus eget nisi dignissim sodales eget tempor</a></h4>
                                             <div class="price_box">
-                                                <span class="old_price">$76.00</span>
-                                                <span class="current_price">$75.00</span>
+                                                <span class="old_price">৳76.00</span>
+                                                <span class="current_price">৳75.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
@@ -574,8 +574,8 @@
                                         <div class="product_content_inner">
                                             <h4 class="product_name"><a href="product-details.html">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
                                             <div class="price_box">
-                                                <span class="old_price">$72.00</span>
-                                                <span class="current_price">$70.00</span>
+                                                <span class="old_price">৳72.00</span>
+                                                <span class="current_price">৳70.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
@@ -606,8 +606,8 @@
                                         <div class="product_content_inner">
                                             <h4 class="product_name"><a href="product-details.html">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
                                             <div class="price_box">
-                                                <span class="old_price">$65.00</span>
-                                                <span class="current_price">$60.00</span>
+                                                <span class="old_price">৳65.00</span>
+                                                <span class="current_price">৳60.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
@@ -638,8 +638,8 @@
                                         <div class="product_content_inner">
                                             <h4 class="product_name"><a href="product-details.html">Eodem modo vel mattis ante facilisis nec porttitor efficitur</a></h4>
                                             <div class="price_box">
-                                                <span class="old_price">$86.00</span>
-                                                <span class="current_price">$79.00</span>
+                                                <span class="old_price">৳86.00</span>
+                                                <span class="current_price">৳79.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
@@ -670,8 +670,8 @@
                                         <div class="product_content_inner">
                                             <h4 class="product_name"><a href="product-details.html">Donec tempus pretium arcu et faucibus commodo</a></h4>
                                             <div class="price_box">
-                                                <span class="old_price">$82.00</span>
-                                                <span class="current_price">$75.00</span>
+                                                <span class="old_price">৳82.00</span>
+                                                <span class="current_price">৳75.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
@@ -706,8 +706,8 @@
                                         <div class="product_content_inner">
                                             <h4 class="product_name"><a href="product-details.html">Nullam maximus eget nisi dignissim sodales eget tempor</a></h4>
                                             <div class="price_box">
-                                                <span class="old_price">$76.00</span>
-                                                <span class="current_price">$75.00</span>
+                                                <span class="old_price">৳76.00</span>
+                                                <span class="current_price">৳75.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
@@ -737,8 +737,8 @@
                                         <div class="product_content_inner">
                                             <h4 class="product_name"><a href="product-details.html">Eodem modo vel mattis ante facilisis nec porttitor efficitur</a></h4>
                                             <div class="price_box">
-                                                <span class="old_price">$86.00</span>
-                                                <span class="current_price">$79.00</span>
+                                                <span class="old_price">৳86.00</span>
+                                                <span class="current_price">৳79.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
@@ -769,8 +769,8 @@
                                         <div class="product_content_inner">
                                             <h4 class="product_name"><a href="product-details.html">Donec tempus pretium arcu et faucibus commodo</a></h4>
                                             <div class="price_box">
-                                                <span class="old_price">$82.00</span>
-                                                <span class="current_price">$75.00</span>
+                                                <span class="old_price">৳82.00</span>
+                                                <span class="current_price">৳75.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
@@ -801,8 +801,8 @@
                                         <div class="product_content_inner">
                                             <h4 class="product_name"><a href="product-details.html">Natus erro at congue massa commodo sit Natus erro</a></h4>
                                             <div class="price_box">
-                                                <span class="old_price">$80.00</span>
-                                                <span class="current_price">$70.00</span>
+                                                <span class="old_price">৳80.00</span>
+                                                <span class="current_price">৳70.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
@@ -833,8 +833,8 @@
                                         <div class="product_content_inner">
                                             <h4 class="product_name"><a href="product-details.html">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
                                             <div class="price_box">
-                                                <span class="old_price">$72.00</span>
-                                                <span class="current_price">$70.00</span>
+                                                <span class="old_price">৳72.00</span>
+                                                <span class="current_price">৳70.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
@@ -865,8 +865,8 @@
                                         <div class="product_content_inner">
                                             <h4 class="product_name"><a href="product-details.html">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
                                             <div class="price_box">
-                                                <span class="old_price">$65.00</span>
-                                                <span class="current_price">$60.00</span>
+                                                <span class="old_price">৳65.00</span>
+                                                <span class="current_price">৳60.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
@@ -901,8 +901,8 @@
                                         <div class="product_content_inner">
                                             <h4 class="product_name"><a href="product-details.html">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
                                             <div class="price_box">
-                                                <span class="old_price">$72.00</span>
-                                                <span class="current_price">$70.00</span>
+                                                <span class="old_price">৳72.00</span>
+                                                <span class="current_price">৳70.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
@@ -933,8 +933,8 @@
                                         <div class="product_content_inner">
                                             <h4 class="product_name"><a href="product-details.html">Eodem modo vel mattis ante facilisis nec porttitor efficitur</a></h4>
                                             <div class="price_box">
-                                                <span class="old_price">$86.00</span>
-                                                <span class="current_price">$79.00</span>
+                                                <span class="old_price">৳86.00</span>
+                                                <span class="current_price">৳79.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
@@ -965,8 +965,8 @@
                                         <div class="product_content_inner">
                                             <h4 class="product_name"><a href="product-details.html">Natus erro at congue massa commodo sit Natus erro</a></h4>
                                             <div class="price_box">
-                                                <span class="old_price">$80.00</span>
-                                                <span class="current_price">$70.00</span>
+                                                <span class="old_price">৳80.00</span>
+                                                <span class="current_price">৳70.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
@@ -997,8 +997,8 @@
                                         <div class="product_content_inner">
                                             <h4 class="product_name"><a href="product-details.html">Nullam maximus eget nisi dignissim sodales eget tempor</a></h4>
                                             <div class="price_box">
-                                                <span class="old_price">$76.00</span>
-                                                <span class="current_price">$75.00</span>
+                                                <span class="old_price">৳76.00</span>
+                                                <span class="current_price">৳75.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
@@ -1028,8 +1028,8 @@
                                         <div class="product_content_inner">
                                             <h4 class="product_name"><a href="product-details.html">Donec tempus pretium arcu et faucibus commodo</a></h4>
                                             <div class="price_box">
-                                                <span class="old_price">$82.00</span>
-                                                <span class="current_price">$75.00</span>
+                                                <span class="old_price">৳82.00</span>
+                                                <span class="current_price">৳75.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
@@ -1060,8 +1060,8 @@
                                         <div class="product_content_inner">
                                             <h4 class="product_name"><a href="product-details.html">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
                                             <div class="price_box">
-                                                <span class="old_price">$65.00</span>
-                                                <span class="current_price">$60.00</span>
+                                                <span class="old_price">৳65.00</span>
+                                                <span class="current_price">৳60.00</span>
                                             </div>
                                         </div>
                                         <div class="add_to_cart">
@@ -1108,8 +1108,8 @@
                                 <div class="product_content_inner">
                                     <h4 class="product_name"><a href="product-details.html">Natus erro at congue massa commodo sit Natus erro</a></h4>
                                     <div class="price_box">
-                                        <span class="old_price">$80.00</span>
-                                        <span class="current_price">$70.00</span>
+                                        <span class="old_price">৳80.00</span>
+                                        <span class="current_price">৳70.00</span>
                                     </div>
                                 </div>
                                 <div class="add_to_cart">
@@ -1140,8 +1140,8 @@
                                 <div class="product_content_inner">
                                     <h4 class="product_name"><a href="product-details.html">Nullam maximus eget nisi dignissim sodales eget tempor</a></h4>
                                     <div class="price_box">
-                                        <span class="old_price">$76.00</span>
-                                        <span class="current_price">$75.00</span>
+                                        <span class="old_price">৳76.00</span>
+                                        <span class="current_price">৳75.00</span>
                                     </div>
                                 </div>
                                 <div class="add_to_cart">
@@ -1172,8 +1172,8 @@
                                 <div class="product_content_inner">
                                     <h4 class="product_name"><a href="product-details.html">Eodem modo vel mattis ante facilisis nec porttitor efficitur</a></h4>
                                     <div class="price_box">
-                                        <span class="old_price">$86.00</span>
-                                        <span class="current_price">$79.00</span>
+                                        <span class="old_price">৳86.00</span>
+                                        <span class="current_price">৳79.00</span>
                                     </div>
                                 </div>
                                 <div class="add_to_cart">
@@ -1204,8 +1204,8 @@
                                 <div class="product_content_inner">
                                     <h4 class="product_name"><a href="product-details.html">Donec tempus pretium arcu et faucibus commodo</a></h4>
                                     <div class="price_box">
-                                        <span class="old_price">$82.00</span>
-                                        <span class="current_price">$75.00</span>
+                                        <span class="old_price">৳82.00</span>
+                                        <span class="current_price">৳75.00</span>
                                     </div>
                                 </div>
                                 <div class="add_to_cart">
@@ -1236,8 +1236,8 @@
                                 <div class="product_content_inner">
                                     <h4 class="product_name"><a href="product-details.html">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
                                     <div class="price_box">
-                                        <span class="old_price">$72.00</span>
-                                        <span class="current_price">$70.00</span>
+                                        <span class="old_price">৳72.00</span>
+                                        <span class="current_price">৳70.00</span>
                                     </div>
                                 </div>
                                 <div class="add_to_cart">
@@ -1268,8 +1268,8 @@
                                 <div class="product_content_inner">
                                     <h4 class="product_name"><a href="product-details.html">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
                                     <div class="price_box">
-                                        <span class="old_price">$65.00</span>
-                                        <span class="current_price">$60.00</span>
+                                        <span class="old_price">৳65.00</span>
+                                        <span class="current_price">৳60.00</span>
                                     </div>
                                 </div>
                                 <div class="add_to_cart">
@@ -1315,8 +1315,8 @@
                                 <div class="product_content_inner">
                                     <h4 class="product_name"><a href="product-details.html">Natus erro at congue massa commodo sit Natus erro</a></h4>
                                     <div class="price_box">
-                                        <span class="old_price">$80.00</span>
-                                        <span class="current_price">$70.00</span>
+                                        <span class="old_price">৳80.00</span>
+                                        <span class="current_price">৳70.00</span>
                                     </div>
                                 </div>
                                 <div class="add_to_cart">
@@ -1347,8 +1347,8 @@
                                 <div class="product_content_inner">
                                     <h4 class="product_name"><a href="product-details.html">Nullam maximus eget nisi dignissim sodales eget tempor</a></h4>
                                     <div class="price_box">
-                                        <span class="old_price">$76.00</span>
-                                        <span class="current_price">$75.00</span>
+                                        <span class="old_price">৳76.00</span>
+                                        <span class="current_price">৳75.00</span>
                                     </div>
                                 </div>
                                 <div class="add_to_cart">
@@ -1379,8 +1379,8 @@
                                 <div class="product_content_inner">
                                     <h4 class="product_name"><a href="product-details.html">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
                                     <div class="price_box">
-                                        <span class="old_price">$72.00</span>
-                                        <span class="current_price">$70.00</span>
+                                        <span class="old_price">৳72.00</span>
+                                        <span class="current_price">৳70.00</span>
                                     </div>
                                 </div>
                                 <div class="add_to_cart">
@@ -1411,8 +1411,8 @@
                                 <div class="product_content_inner">
                                     <h4 class="product_name"><a href="product-details.html">Mirum est notare tellus eu nibh iaculis pretium</a></h4>
                                     <div class="price_box">
-                                        <span class="old_price">$65.00</span>
-                                        <span class="current_price">$60.00</span>
+                                        <span class="old_price">৳65.00</span>
+                                        <span class="current_price">৳60.00</span>
                                     </div>
                                 </div>
                                 <div class="add_to_cart">
@@ -1443,8 +1443,8 @@
                                 <div class="product_content_inner">
                                     <h4 class="product_name"><a href="product-details.html">Eodem modo vel mattis ante facilisis nec porttitor efficitur</a></h4>
                                     <div class="price_box">
-                                        <span class="old_price">$86.00</span>
-                                        <span class="current_price">$79.00</span>
+                                        <span class="old_price">৳86.00</span>
+                                        <span class="current_price">৳79.00</span>
                                     </div>
                                 </div>
                                 <div class="add_to_cart">
@@ -1475,8 +1475,8 @@
                                 <div class="product_content_inner">
                                     <h4 class="product_name"><a href="product-details.html">Donec tempus pretium arcu et faucibus commodo</a></h4>
                                     <div class="price_box">
-                                        <span class="old_price">$82.00</span>
-                                        <span class="current_price">$75.00</span>
+                                        <span class="old_price">৳82.00</span>
+                                        <span class="current_price">৳75.00</span>
                                     </div>
                                 </div>
                                 <div class="add_to_cart">

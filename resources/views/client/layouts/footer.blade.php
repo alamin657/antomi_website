@@ -42,7 +42,7 @@
                         <div class="widgets_container contact_us">
                             <h3>GET THE APP</h3>
                             <div class="aff_content">
-                                <p><strong>ANTOMI</strong> App is now available on Google Play & App Store. Get it now.</p>
+                                <p><strong>WOW Bangladesh</strong> App is now available on Google Play & App Store. Get it now.</p>
                             </div>
                             <div class="app_img">
                                 <figure class="app_img">
@@ -206,8 +206,8 @@
                                         <h2>Sit voluptatem rhoncus sem lectus</h2>
                                     </div>
                                     <div class="modal_price mb-10">
-                                        <span class="new_price">$64.99</span>
-                                        <span class="old_price" >$78.99</span>
+                                        <span class="new_price">৳64.99</span>
+                                        <span class="old_price" >৳78.99</span>
                                     </div>
                                     <div class="modal_description mb-15">
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia iste laborum ad impedit pariatur esse optio tempora sint ullam autem deleniti nam in quos qui nemo ipsum numquam, reiciendis maiores quidem aperiam, rerum vel recusandae </p>
