@@ -147,7 +147,7 @@
     <!--footer area end-->
 
     <!-- modal area start-->
-    {{-- <div class="modal fade" id="modal_box" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal fade" id="modal_box" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
@@ -161,48 +161,33 @@
                                     <div class="tab-content product-details-large">
                                         <div class="tab-pane fade show active" id="tab1" role="tabpanel">
                                             <div class="modal_tab_img">
-                                                <a href="#"><img src="assets/img/product/productbig2.jpg" alt=""></a>
-                                            </div>
-                                        </div>
-                                        <div class="tab-pane fade" id="tab2" role="tabpanel">
-                                            <div class="modal_tab_img">
-                                                <a href="#"><img src="assets/img/product/productbig3.jpg" alt=""></a>
-                                            </div>
-                                        </div>
-                                        <div class="tab-pane fade" id="tab3" role="tabpanel">
-                                            <div class="modal_tab_img">
-                                                <a href="#"><img src="assets/img/product/productbig4.jpg" alt=""></a>
-                                            </div>
-                                        </div>
-                                        <div class="tab-pane fade" id="tab4" role="tabpanel">
-                                            <div class="modal_tab_img">
-                                                <a href="#"><img src="assets/img/product/productbig5.jpg" alt=""></a>
+                                                <a href="#"><img src="{{asset('client/img/product/product-category/product1.jpg')}}" alt=""></a>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="modal_tab_button">
+                                    {{--  <div class="modal_tab_button">
                                         <ul class="nav product_navactive owl-carousel" role="tablist">
                                             <li>
-                                                <a class="nav-link active" data-toggle="tab" href="#tab1" role="tab" aria-controls="tab1" aria-selected="false"><img src="assets/img/product/product1.jpg" alt=""></a>
+                                                <a class="nav-link active" data-toggle="tab" href="#tab1" role="tab" aria-controls="tab1" aria-selected="false"><img src="{{asset('client/img/product/product-category/product1.jpg')}}" alt=""></a>
                                             </li>
                                             <li>
-                                                <a class="nav-link" data-toggle="tab" href="#tab2" role="tab" aria-controls="tab2" aria-selected="false"><img src="assets/img/product/product6.jpg" alt=""></a>
+                                                <a class="nav-link" data-toggle="tab" href="#tab2" role="tab" aria-controls="tab2" aria-selected="false"><img src="{{asset('client/img/product/product-category/product2.jpg')}}" alt=""></a>
                                             </li>
                                             <li>
-                                                <a class="nav-link button_three" data-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="false"><img src="assets/img/product/product9.jpg" alt=""></a>
+                                                <a class="nav-link button_three" data-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="false"><img src="{{asset('client/img/product/product-category/product3.jpg')}}" alt=""></a>
                                             </li>
                                             <li>
-                                                <a class="nav-link" data-toggle="tab" href="#tab4" role="tab" aria-controls="tab4" aria-selected="false"><img src="assets/img/product/product14.jpg" alt=""></a>
+                                                <a class="nav-link" data-toggle="tab" href="#tab4" role="tab" aria-controls="tab4" aria-selected="false"><img src="{{asset('client/img/product/product-category/product4.jpg')}}" alt=""></a>
                                             </li>
 
                                         </ul>
-                                    </div>
+                                    </div>  --}}
                                 </div>
                             </div>
                             <div class="col-lg-7 col-md-7 col-sm-12">
                                 <div class="modal_right">
                                     <div class="modal_title mb-10">
-                                        <h2>Sit voluptatem rhoncus sem lectus</h2>
+                                        <h2>Mens fashion collection</h2>
                                     </div>
                                     <div class="modal_price mb-10">
                                         <span class="new_price">৳64.99</span>
@@ -239,7 +224,7 @@
                                             </form>
                                         </div>
                                     </div>
-                                    <div class="modal_social">
+                                    {{--  <div class="modal_social">
                                         <h2>Share this product</h2>
                                         <ul>
                                             <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -248,7 +233,7 @@
                                             <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
                                             <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
                                         </ul>
-                                    </div>
+                                    </div>  --}}
                                 </div>
                             </div>
                         </div>
@@ -256,7 +241,7 @@
                 </div>
             </div>
         </div>
-    </div> --}}
+    </div>
     <!-- modal area end-->
 
 

@@ -4515,7 +4515,7 @@ textarea:-ms-input-placeholder {
 }
 
 .product_area .owl-carousel .owl-stage-outer {
-  padding-bottom: 60px;
+  /* padding-bottom: 60px; */
 }
 
 .single_product {
@@ -6360,12 +6360,12 @@ textarea:-ms-input-placeholder {
 
 .shop_area {
   background: #F5F5F9;
-  padding: 60px 0 133px;
+  padding: 0px 0 133px;
 }
 
 @media only screen and (max-width: 767px) {
   .shop_area {
-    padding: 60px 0 110px;
+    padding: 0px 0 110px;
   }
 }
 
@@ -7331,12 +7331,12 @@ textarea:-ms-input-placeholder {
 /* 15. product details css here */
 .product_page_bg {
   background: #F5F5F9;
-  padding: 60px 0 75px;
+  /* padding: 0px 0 75px; */
 }
 
 @media only screen and (max-width: 767px) {
   .product_page_bg {
-    padding: 60px 0 50px;
+    /* padding: 60px 0 50px; */
   }
 }
 
