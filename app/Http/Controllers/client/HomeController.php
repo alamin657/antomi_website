@@ -34,6 +34,7 @@ class HomeController extends Controller
     {
         return view('client.wishlist');
     }
+  
 
     public function cart()
     {

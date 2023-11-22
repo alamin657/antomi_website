@@ -25,6 +25,7 @@ Route::get('/contuct', [HomeController::class, 'contuct'])->name('client.contuct
 Route::get('/about', [HomeController::class, 'about'])->name('client.about');
 
 
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
