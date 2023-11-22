@@ -23,6 +23,8 @@ Route::get('/wishlist', [HomeController::class, 'wishlist'])->name('client.wishl
 Route::get('/checkout', [HomeController::class, 'checkout'])->name('client.checkout');
 Route::get('/contuct', [HomeController::class, 'contuct'])->name('client.contuct');
 Route::get('/about', [HomeController::class, 'about'])->name('client.about');
+Route::get('/user_login', [HomeController::class, 'login_website'])->name('login.website');
+Route::get('/my_account', [HomeController::class, 'account'])->name('client.account');
 
 
 
