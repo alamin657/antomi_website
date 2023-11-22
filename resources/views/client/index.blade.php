@@ -299,6 +299,7 @@
                                 </ul>
                             </div> --}}
                 </div>
+
             </div>
         </div>
         <div class="tab-content">
@@ -341,6 +342,8 @@
                                         <span class="current_price">৳79.00</span>
                                     </div>
                                     {{-- <div class="countdown_text">
+
+
                                                 <p><span>Hurry Up!</span> Offers ends in: </p>
                                             </div>
                                             <div class="product_timing">
@@ -350,7 +353,6 @@
                                 <div class="add_to_cart">
                                     <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                 </div>
-
                             </div>
                         </figure>
                     </article>
@@ -391,6 +393,7 @@
                                         <span class="current_price">৳75.00</span>
                                     </div>
                                     {{-- <div class="countdown_text">
+
                                                 <p><span>Hurry Up!</span> Offers ends in: </p>
                                             </div>
                                             <div class="product_timing">
@@ -400,6 +403,7 @@
                                 <div class="add_to_cart">
                                     <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                 </div>
+
 
                             </div>
                         </figure>
@@ -441,6 +445,8 @@
                                         <span class="current_price">৳70.00</span>
                                     </div>
                                     {{-- <div class="countdown_text">
+
+
                                                 <p><span>Hurry Up!</span> Offers ends in: </p>
                                             </div>
                                             <div class="product_timing">
@@ -450,6 +456,7 @@
                                 <div class="add_to_cart">
                                     <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                 </div>
+
 
                             </div>
                         </figure>
@@ -491,6 +498,8 @@
                                         <span class="current_price">৳75.00</span>
                                     </div>
                                     {{-- <div class="countdown_text">
+
+
                                                 <p><span>Hurry Up!</span> Offers ends in: </p>
                                             </div>
                                             <div class="product_timing">
@@ -500,6 +509,7 @@
                                 <div class="add_to_cart">
                                     <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                 </div>
+
 
                             </div>
                         </figure>
@@ -541,6 +551,7 @@
                                         <span class="current_price">৳70.00</span>
                                     </div>
                                     {{-- <div class="countdown_text">
+
                                                 <p><span>Hurry Up!</span> Offers ends in: </p>
                                             </div>
                                             <div class="product_timing">
@@ -550,6 +561,7 @@
                                 <div class="add_to_cart">
                                     <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                 </div>
+
 
                             </div>
                         </figure>
@@ -591,6 +603,7 @@
                                         <span class="current_price">৳60.00</span>
                                     </div>
                                     {{-- <div class="countdown_text">
+
                                                 <p><span>Hurry Up!</span> Offers ends in: </p>
                                             </div>
                                             <div class="product_timing">
@@ -600,6 +613,7 @@
                                 <div class="add_to_cart">
                                     <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                 </div>
+
 
                             </div>
                         </figure>
@@ -645,6 +659,7 @@
                                         <span class="current_price">৳70.00</span>
                                     </div>
                                     {{-- <div class="countdown_text">
+
                                                 <p><span>Hurry Up!</span> Offers ends in: </p>
                                             </div>
                                             <div class="product_timing">
@@ -695,6 +710,7 @@
                                         <span class="current_price">৳75.00</span>
                                     </div>
                                     {{-- <div class="countdown_text">
+
                                                 <p><span>Hurry Up!</span> Offers ends in: </p>
                                             </div>
                                             <div class="product_timing">
@@ -704,6 +720,7 @@
                                 <div class="add_to_cart">
                                     <a href="{{route('client.product_details')}}" title="Add to cart">Add to cart</a>
                                 </div>
+
 
                             </div>
                         </figure>
@@ -745,6 +762,7 @@
                                         <span class="current_price">৳70.00</span>
                                     </div>
                                     {{-- <div class="countdown_text">
+
                                                 <p><span>Hurry Up!</span> Offers ends in: </p>
                                             </div>
                                             <div class="product_timing">
@@ -795,6 +813,7 @@
                                         <span class="current_price">৳60.00</span>
                                     </div>
                                     {{-- <div class="countdown_text">
+
                                                 <p><span>Hurry Up!</span> Offers ends in: </p>
                                             </div>
                                             <div class="product_timing">
@@ -804,6 +823,7 @@
                                 <div class="add_to_cart">
                                     <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                 </div>
+
 
                             </div>
                         </figure>
@@ -845,7 +865,7 @@
                                         <span class="current_price">৳79.00</span>
                                     </div>
                                     {{-- <div class="countdown_text">
-                                                <p><span>Hurry Up!</span> Offers ends in: </p>
+                           <p><span>Hurry Up!</span> Offers ends in: </p>
                                             </div>
                                             <div class="product_timing">
                                                 <div data-countdown="2023/12/15"></div>
@@ -895,7 +915,7 @@
                                         <span class="current_price">৳75.00</span>
                                     </div>
                                     {{-- <div class="countdown_text">
-                                                <p><span>Hurry Up!</span> Offers ends in: </p>
+                            <p><span>Hurry Up!</span> Offers ends in: </p>
                                             </div>
                                             <div class="product_timing">
                                                 <div data-countdown="2023/08/15"></div>
@@ -904,6 +924,7 @@
                                 <div class="add_to_cart">
                                     <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                 </div>
+
 
                             </div>
                         </figure>
@@ -949,6 +970,7 @@
                                         <span class="current_price">৳75.00</span>
                                     </div>
                                     {{-- <div class="countdown_text">
+
                                                 <p><span>Hurry Up!</span> Offers ends in: </p>
                                             </div>
                                             <div class="product_timing">
@@ -958,6 +980,7 @@
                                 <div class="add_to_cart">
                                     <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                 </div>
+
 
                             </div>
                         </figure>
@@ -998,6 +1021,7 @@
                                         <span class="current_price">৳79.00</span>
                                     </div>
                                     {{-- <div class="countdown_text">
+
                                                 <p><span>Hurry Up!</span> Offers ends in: </p>
                                             </div>
                                             <div class="product_timing">
@@ -1048,6 +1072,7 @@
                                         <span class="current_price">৳75.00</span>
                                     </div>
                                     {{-- <div class="countdown_text">
+
                                                 <p><span>Hurry Up!</span> Offers ends in: </p>
                                             </div>
                                             <div class="product_timing">
@@ -1098,6 +1123,7 @@
                                         <span class="current_price">৳70.00</span>
                                     </div>
                                     {{-- <div class="countdown_text">
+
                                                 <p><span>Hurry Up!</span> Offers ends in: </p>
                                             </div>
                                             <div class="product_timing">
@@ -1107,6 +1133,7 @@
                                 <div class="add_to_cart">
                                     <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                 </div>
+
 
                             </div>
                         </figure>
@@ -1148,6 +1175,7 @@
                                         <span class="current_price">৳70.00</span>
                                     </div>
                                     {{-- <div class="countdown_text">
+
                                                 <p><span>Hurry Up!</span> Offers ends in: </p>
                                             </div>
                                             <div class="product_timing">
@@ -1157,6 +1185,7 @@
                                 <div class="add_to_cart">
                                     <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                 </div>
+
 
                             </div>
                         </figure>
@@ -1198,6 +1227,7 @@
                                         <span class="current_price">৳60.00</span>
                                     </div>
                                     {{-- <div class="countdown_text">
+
                                                 <p><span>Hurry Up!</span> Offers ends in: </p>
                                             </div>
                                             <div class="product_timing">
@@ -1207,6 +1237,7 @@
                                 <div class="add_to_cart">
                                     <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                 </div>
+
 
                             </div>
                         </figure>
@@ -1252,6 +1283,7 @@
                                         <span class="current_price">৳70.00</span>
                                     </div>
                                     {{-- <div class="countdown_text">
+
                                                 <p><span>Hurry Up!</span> Offers ends in: </p>
                                             </div>
                                             <div class="product_timing">
@@ -1261,6 +1293,7 @@
                                 <div class="add_to_cart">
                                     <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                 </div>
+
 
                             </div>
                         </figure>
@@ -1302,6 +1335,7 @@
                                         <span class="current_price">৳79.00</span>
                                     </div>
                                     {{-- <div class="countdown_text">
+
                                                 <p><span>Hurry Up!</span> Offers ends in: </p>
                                             </div>
                                             <div class="product_timing">
@@ -1311,6 +1345,7 @@
                                 <div class="add_to_cart">
                                     <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                 </div>
+
 
                             </div>
                         </figure>
@@ -1352,6 +1387,7 @@
                                         <span class="current_price">৳70.00</span>
                                     </div>
                                     {{-- <div class="countdown_text">
+
                                                 <p><span>Hurry Up!</span> Offers ends in: </p>
                                             </div>
                                             <div class="product_timing">
@@ -1361,6 +1397,7 @@
                                 <div class="add_to_cart">
                                     <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                 </div>
+
 
                             </div>
                         </figure>
@@ -1402,7 +1439,7 @@
                                         <span class="current_price">৳75.00</span>
                                     </div>
                                     {{-- <div class="countdown_text">
-                                                <p><span>Hurry Up!</span> Offers ends in: </p>
+                         <p><span>Hurry Up!</span> Offers ends in: </p>
                                             </div>
                                             <div class="product_timing">
                                                 <div data-countdown="2023/11/15"></div>
@@ -1411,6 +1448,7 @@
                                 <div class="add_to_cart">
                                     <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                 </div>
+
 
                             </div>
                         </figure>
@@ -1451,6 +1489,7 @@
                                         <span class="current_price">৳75.00</span>
                                     </div>
                                     {{-- <div class="countdown_text">
+
                                                 <p><span>Hurry Up!</span> Offers ends in: </p>
                                             </div>
                                             <div class="product_timing">
@@ -1460,6 +1499,7 @@
                                 <div class="add_to_cart">
                                     <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                 </div>
+
 
                             </div>
                         </figure>
@@ -1501,6 +1541,7 @@
                                         <span class="current_price">৳60.00</span>
                                     </div>
                                     {{-- <div class="countdown_text">
+
                                                 <p><span>Hurry Up!</span> Offers ends in: </p>
                                             </div>
                                             <div class="product_timing">
@@ -1573,6 +1614,7 @@
                         </ul>
                     </div>
                 </div>
+
             </div>
         </div>
         <div class="tab-content">
@@ -1663,6 +1705,7 @@
                                     <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                 </div>
 
+
                             </div>
                         </figure>
                     </article>
@@ -1749,6 +1792,7 @@
                                     <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                 </div>
 
+
                             </div>
                         </figure>
                     </article>
@@ -1792,6 +1836,7 @@
                                     <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                 </div>
 
+
                             </div>
                         </figure>
                     </article>
@@ -1834,6 +1879,7 @@
                                 <div class="add_to_cart">
                                     <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                 </div>
+
 
                             </div>
                         </figure>
@@ -1930,6 +1976,7 @@
                                     <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                 </div>
 
+
                             </div>
                         </figure>
                     </article>
@@ -1972,6 +2019,7 @@
                                 <div class="add_to_cart">
                                     <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                 </div>
+
 
                             </div>
                         </figure>
@@ -2017,6 +2065,7 @@
                                     <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                 </div>
 
+
                             </div>
                         </figure>
                     </article>
@@ -2061,6 +2110,7 @@
                                     <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                 </div>
 
+
                             </div>
                         </figure>
                     </article>
@@ -2104,6 +2154,7 @@
                                 <div class="add_to_cart">
                                     <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                 </div>
+
 
                             </div>
                         </figure>
@@ -2374,6 +2425,7 @@
                                     <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                 </div>
 
+
                             </div>
                         </figure>
                     </article>
@@ -2423,6 +2475,7 @@
                                     <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                 </div>
 
+
                             </div>
                         </figure>
                     </article>
@@ -2466,6 +2519,7 @@
                                 <div class="add_to_cart">
                                     <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                 </div>
+
 
                             </div>
                         </figure>
@@ -2511,6 +2565,7 @@
                                     <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                 </div>
 
+
                             </div>
                         </figure>
                     </article>
@@ -2555,6 +2610,7 @@
                                     <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                 </div>
 
+
                             </div>
                         </figure>
                     </article>
@@ -2597,6 +2653,7 @@
                                 <div class="add_to_cart">
                                     <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                 </div>
+
 
                             </div>
                         </figure>
@@ -2642,10 +2699,12 @@
                                     <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                                 </div>
 
+
                             </div>
                         </figure>
                     </article>
                 </div>
+
             </div>
 
         </div>
@@ -2662,6 +2721,7 @@
                     <div class="product_header">
                         <div class="section_title s_title_style3">
                             <h2>Featured Products</h2>
+
 
                         </div>
                         {{-- <div class="product_tab_btn">
@@ -3835,6 +3895,7 @@
                             <article class="single_product">
                                 <figure>
                                     <div class="product_thumb">
+
                                         <a class="primary_img" href="{{route('client.product_details')}}"><img
     src="{{asset('client/img/product/product19.jpg')}}" alt=""></a>
 <a class="secondary_img" href="{{route('client.product_details')}}"><img
@@ -4068,6 +4129,7 @@
                 <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
             </div>
 
+
         </div>
     </figure>
 </article>
@@ -4086,6 +4148,7 @@
                     <div class="label_product">
                         <span class="label_sale">Sale</span>
                     </div>
+
                     <div class="action_links">
                         <ul>
                             <li class="wishlist"><a href="{{route('client.wishlist')}}" data-tippy-placement="top"
@@ -4153,6 +4216,7 @@
                     <div class="add_to_cart">
                         <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                     </div>
+
 
                 </div>
             </figure>
@@ -4236,6 +4300,7 @@
                         <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                     </div>
 
+
                 </div>
             </figure>
         </article>
@@ -4277,6 +4342,7 @@
                         <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                     </div>
 
+
                 </div>
             </figure>
         </article>
@@ -4317,6 +4383,7 @@
                     <div class="add_to_cart">
                         <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                     </div>
+
 
                 </div>
             </figure>
@@ -4363,6 +4430,7 @@
                         <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                     </div>
 
+
                 </div>
             </figure>
         </article>
@@ -4402,6 +4470,7 @@
                     <div class="add_to_cart">
                         <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                     </div>
+
 
                 </div>
             </figure>
@@ -4444,6 +4513,7 @@
                         <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                     </div>
 
+
                 </div>
             </figure>
         </article>
@@ -4484,6 +4554,7 @@
                     <div class="add_to_cart">
                         <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                     </div>
+
 
                 </div>
             </figure>
@@ -4526,6 +4597,7 @@
                         <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                     </div>
 
+
                 </div>
             </figure>
         </article>
@@ -4566,6 +4638,7 @@
                     <div class="add_to_cart">
                         <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                     </div>
+
 
                 </div>
             </figure>
@@ -4612,6 +4685,7 @@
                         <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                     </div>
 
+
                 </div>
             </figure>
         </article>
@@ -4694,6 +4768,7 @@
                         <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                     </div>
 
+
                 </div>
             </figure>
         </article>
@@ -4735,6 +4810,7 @@
                         <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                     </div>
 
+
                 </div>
             </figure>
         </article>
@@ -4774,6 +4850,7 @@
                     <div class="add_to_cart">
                         <a href="{{route('client.cart')}}" title="Add to cart">Add to cart</a>
                     </div>
+
 
                 </div>
             </figure>

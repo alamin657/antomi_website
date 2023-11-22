@@ -24,7 +24,7 @@
         <div class="container">
             <div class="Checkout_section">
                 <div class="row">
-                    <div class="col-12">
+                    {{-- <div class="col-12">
                         <div class="user-actions">
                             <h3>
                                 <i class="fa fa-file-o" aria-hidden="true"></i>
@@ -72,7 +72,7 @@
                                 </div>
                             </div>
                         </div>
-                   </div>
+                   </div> --}}
                 </div>
                 <div class="checkout_form">
                     <div class="row">
@@ -134,7 +134,7 @@
                                             <input type="text">
 
                                         </div>
-                                        <div class="col-12 mb-20">
+                                        {{-- <div class="col-12 mb-20">
                                             <input id="account" type="checkbox" data-target="createp_account" />
                                             <label for="account" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-controls="collapseOne">Create an account?</label>
 
@@ -144,8 +144,8 @@
                                                     <input placeholder="password" type="password">
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="col-12 mb-20">
+                                        </div> --}}
+                                        {{-- <div class="col-12 mb-20">
                                             <input id="address" type="checkbox" data-target="createp_account" />
                                             <label class="righ_0" for="address" data-bs-toggle="collapse" data-bs-target="#collapsetwo" aria-controls="collapseOne">Ship to a different address?</label>
 
@@ -213,7 +213,7 @@
                                                 <label for="order_note">Order Notes</label>
                                                 <textarea id="order_note" placeholder="Notes about your order, e.g. special notes for delivery."></textarea>
                                             </div>
-                                        </div>
+                                        </div> --}}
                                     </div>
                                 </form>
                             </div>
@@ -264,7 +264,7 @@
                                             </tfoot>
                                         </table>
                                     </div>
-                                    <div class="payment_method">
+                                    {{-- <div class="payment_method">
                                         <div class="panel-default">
                                             <input id="payment" name="check_method" type="radio" data-target="createp_account" />
                                             <label for="payment" data-bs-toggle="collapse" data-bs-target="#method" aria-controls="method">Create an account?</label>
@@ -288,7 +288,7 @@
                                         <div class="order_button">
                                             <button type="submit">Proceed to PayPal</button>
                                         </div>
-                                    </div>
+                                    </div> --}}
                                 </form>
                             </div>
                         </div>

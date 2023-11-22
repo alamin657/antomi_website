@@ -20,7 +20,7 @@
     <!--breadcrumbs area end-->
 
     <!--wishlist area start -->
-    <div class="wishlist_page_bg">
+    <div>
         <div class="container">
             <div class="wishlist_area">
                 <div class="wishlist_inner">
@@ -82,7 +82,7 @@
                         </div>
                     </form>
                 </div>
-                <div class="row">
+                {{-- <div class="row">
                     <div class="col-12">
                         <div class="wishlist_share">
                             <h4>Share on:</h4>
@@ -95,7 +95,7 @@
                             </ul>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>
