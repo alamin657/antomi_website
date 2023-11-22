@@ -77,10 +77,10 @@
                             <h3>My Account</h3>
                             <div class="footer_menu">
                                 <ul>
-                                    <li><a href="my-account.html">My Account</a></li>
-                                    <li><a href="cart.html">Shopping Cart</a></li>
-                                    <li><a href="wishlist.html">Wish List</a></li>
-                                    <li><a href="#">Order History</a></li>
+                                    <li><a href="{{ route('client.account') }}">My Account</a></li>
+                                    <li><a href="{{ route('client.cart') }}">Shopping Cart</a></li>
+                                    <li><a href="{{ route('client.wishlist') }}">Wish List</a></li>
+                                    <li><a href="{{ route('client.account') }}">Order History</a></li>
                                 </ul>
                             </div>
                         </div>
