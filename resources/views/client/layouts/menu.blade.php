@@ -17,7 +17,7 @@
                         </div>
                         <div class="header_top_settings text-end">
                             <ul>
-                                <li><a href="#">login</a></li>
+                                <li><a href="{{ route('login.website') }}">login</a></li>
                                 <li><a href="{{ route('client.wishlist') }}">wishlist</a></li>
                                 <li><a href="{{ route('client.cart') }}">cart</a></li>
                                 <li>Hotline: <a href="tel:+0123456789">0123456789 </a></li>
@@ -102,7 +102,7 @@
                         <div class="col-lg-8 col-md-7">
                             <div class="header_top_settings text-end">
                                 <ul>
-                                    <li><a href="#">login</a></li>
+                                    <li><a href="{{ route('login.website') }}">login</a></li>
                                     <li><a href="{{ route('client.wishlist') }}">wishlist</a></li>
                                     <li><a href="{{ route('client.cart') }}">cart</a></li>
                                     <li>Hotline: <a href="tel:+0123456789">0123456789 </a></li>
